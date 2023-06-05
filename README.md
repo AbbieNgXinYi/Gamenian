@@ -49,6 +49,8 @@ Game effects(80% Completion)
 
 ## Installation:
 
+### Unity Hub
+
 1) *Install Unity Hub before installing the Zip folder of the game*
 
 2) *Unzip folder of the game and opening it in Unity Hub*
