@@ -46,13 +46,11 @@ Game effects(80% Completion)
 ```mermaid
 graph TD
 
-A[power adapter]--> B[Laptop]
-B--> C[Steinberg UR44]
-D[Steinberg power adapter]--> C
-C--> E[Active Speaker 1]
-C--> F[Active Speaker 2]
-C--> G[Active Speaker 3]
-C--> H[Active Speaker 4]
+A[Laptop]--> B[Steinberg UR44]
+B--> E[Active Speaker 1]
+B--> F[Active Speaker 2]
+B--> G[Active Speaker 3]
+B--> H[Active Speaker 4]
 
 ```
 ### Control Setup
@@ -60,12 +58,10 @@ C--> H[Active Speaker 4]
 ```mermaid
 graph TD
 
-A[power adapter]--> B[Laptop]
-B--> C[Network Switch]
-C--> D[Crestron Processor - CP3]
-C--> E[Wireless Router]
-C--> F[Projector 1]
-C--> G[Projector 2]
+A--> B[Network Switch]
+B--> C[Crestron Processor - CP3]
+B--> D[Projector 1]
+B--> E[Projector 2]
 
 ```
 #### Arudino Control
