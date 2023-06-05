@@ -39,13 +39,34 @@ Game effects(80% Completion)
 
 - <span style="color:lightgreen">Cat Clicker **(100% Completion)**</span>
 
-## System Diagram
-
----
 
 ## Setup Progress
+### Audio Setup
+```mermaid
+graph TD
 
----
+A[power adapter]--> B[Laptop]
+B--> C[Steinberg UR44]
+D[Steinberg power adapter]--> C
+C--> E[Active Speaker 1]
+C--> F[Active Speaker 2]
+C--> G[Active Speaker 3]
+C--> H[Active Speaker 4]
+
+```
+### Audio Setup
+```mermaid
+graph TD
+
+A[power adapter]--> B[Laptop]
+B--> C[Network Switch]
+C--> D[Crestron Processor (CP3)]
+C--> E[Wireless Router]
+C--> F[Projector 1]
+C--> G[Projector 2]
+
+```
+
 
 ## Installation:
 
