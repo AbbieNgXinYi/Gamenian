@@ -54,7 +54,8 @@ C--> G[Active Speaker 3]
 C--> H[Active Speaker 4]
 
 ```
-### Audio Setup
+### Control Setup
+#### Projector Control
 ```mermaid
 graph TD
 
@@ -66,7 +67,22 @@ C--> F[Projector 1]
 C--> G[Projector 2]
 
 ```
+#### Arudino Control
+```mermaid
+graph TD
 
+A[Micro USB]--> B[Laptop]
+A--> C[Arduino]
+C--> D[Breadboard]
+D--> E[Joystick]
+D--> E[Joystick]
+D--> E[Button - Mouse Click]
+D--> F[Button - Up Key]
+D--> G[Button - Down Key]
+D--> H[Button - Left Key]
+D--> I[Button - Right Key]
+
+```
 
 ## Installation:
 
