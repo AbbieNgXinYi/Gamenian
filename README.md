@@ -41,6 +41,7 @@ Game effects(80% Completion)
 
 
 ## Setup Progress
+### Video Setup
 ### Audio Setup
 ```mermaid
 graph TD
