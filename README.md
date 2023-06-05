@@ -61,7 +61,7 @@ graph TD
 
 A[power adapter]--> B[Laptop]
 B--> C[Network Switch]
-C--> D[Crestron Processor (CP3)]
+C--> D[Crestron Processor - CP3]
 C--> E[Wireless Router]
 C--> F[Projector 1]
 C--> G[Projector 2]
@@ -75,12 +75,11 @@ A[Micro USB]--> B[Laptop]
 A--> C[Arduino]
 C--> D[Breadboard]
 D--> E[Joystick]
-D--> E[Joystick]
-D--> E[Button - Mouse Click]
-D--> F[Button - Up Key]
-D--> G[Button - Down Key]
-D--> H[Button - Left Key]
-D--> I[Button - Right Key]
+D--> F[Button - Mouse Click]
+D--> G[Button - Up Key]
+D--> H[Button - Down Key]
+D--> I[Button - Left Key]
+D--> J[Button - Right Key]
 
 ```
 
