@@ -58,7 +58,7 @@ B--> H[Active Speaker 4]
 ```mermaid
 graph TD
 
-A--> B[Network Switch]
+A[Laptop]--> B[Network Switch]
 B--> C[Crestron Processor - CP3]
 B--> D[Projector 1]
 B--> E[Projector 2]
