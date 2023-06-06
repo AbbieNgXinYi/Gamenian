@@ -82,32 +82,39 @@ D--> J[Button - Right Key]
 
 ```
 =======
-## Installation:
+## ***Installation:***
+### **Video**
+---
 
-1) *Set up 2projectors(1 for coffee table, 1 for the wall/screen)*
+1) *Setup a laptop that has 2 output connections, 1 to Aver Media Capture Card while the other to HP Media Server*
+
+2) *From the media server, there will be 2outputs to 2 different DP to HDMI adapters*
+
+3) *From each adapters output, will be connected to Kramer PT-572+ and Kramer PT-571( transmitter and receiever ) before output to 2 different projectors*
+
 ![Alt text](images314Github/-6339063505319213120_121.jpg)
 
-2) *Ensure that the cables are properly connected to UR44(amplifier) to the speakers from the laptop and properly powered on*
-**The cable from the laptop to the amplifier is USB type B to USB type A**
+![Alt text](images314Github/SGCAM_20230606_164846459.jpg)
 
-*the image below is connection to amplifier to speaker*
-![Alt text](images314Github/IMG20230606143016.jpg)
-
-***Also ensure that the driver is working properly in the amplifier for the speaker to be in working condition***
-![Alt text](Addimg/photo_6339063505319213114_y.jpg)
-
-
-2) *Ensure that the cables are connected from the laptop that you are going to livestream the game and the media server to the CaptureCard before output it to the 2projectors*
-
-![Alt text](images314Github/IMG20230606143107.jpg)
+![Alt text](images314Github/SGCAM_20230606_165027870.jpg)
 
 ![Alt text](images314Github/SGCAM_20230606_165220717.jpg)
 
-![Alt text](images314Github/SGCAM_20230606_165119660.jpg)
+### **Audio**
 
-![Alt text](images314Github/SGCAM_20230606_164630966.jpg)
+---
+1) *At the same time from the laptop, direct connection to the Steinberg UR44( amplifier)*
 
-![Alt text](images314Github/SGCAM_20230606_164744689.jpg)
+2) *From the amplifier, output the cables to 4 different active speakers*
+
+*the images below is connection from amplifier to speakers*
+![Alt text](images314Github/IMG20230606143016.jpg)
+
+![Alt text](images314Github/SGCAM_20230601_121620829.jpg)
+---
+
+* ***Also ensure that the driver is working properly in the amplifier in order to send audio out to the speakers***
+
 =======
 ## Operational Instructions:
 ---
@@ -115,11 +122,19 @@ D--> J[Button - Right Key]
 ---
 1) *Have a LGX AvaMedia CaptureCard (for livestreaming the game onto the table and screen)*
 
+![Alt text](images314Github/IMG20230606143107.jpg)
+
 2) **Install LGX Livestream CaptureCard drive in your laptop in order for the CaptureCard to communicate with the laptop and the media server.**
 
 3) **After downloading Christie Pandora Box, and Christie Pandora Server Management, you would need to have a licence for the pandora box in order to be able to operate it( the licence can be in seperate hard drive like a thumbdrive, though it requires money to buy the licence).**
 
 4) **After having both the licence and the pandora box, open up pandora server management, in it you need to open the media server( if you have direct connection from the laptop to the server with the licence). Ensure that the IP address are in the same subnets for direct commnications on both the media server and the laptop.** 
+
+![Alt text](images314Github/SGCAM_20230606_165119660.jpg)
+
+![Alt text](images314Github/SGCAM_20230606_164630966.jpg)
+
+![Alt text](images314Github/SGCAM_20230606_164744689.jpg)
 
 5) **Afterwards, you can *open the Pandora Box application,both on laptop and in server management,* create new project( ensure that after opening new project, you could see the server icon ). Add the live stream media and video assets needed into the media server, and both the assets needs to be on different layers. From there, the projectors should be able to livestream the output from laptop onto the table/screen.**
 
