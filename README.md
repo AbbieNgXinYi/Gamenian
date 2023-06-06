@@ -85,7 +85,22 @@ D--> I[Button - Left Key]
 D--> J[Button - Right Key]
 
 ```
+---
+## *Operational Instructions(Software):*
 
+1) *Have a LGX AvaMedia CaptureCard (for livestreaming the game onto the table and screen)*
+
+2) **Install LGX Livestream CaptureCard drive in your laptop in order for the CaptureCard to communicate with the laptop and the media server.**
+
+3) **After downloading Christie Pandora Box, and Christie Pandora Server Management, you would need to have a licence for the pandora box in order to be able to operate it( the licence can be in seperate hard drive like a thumbdrive, though it requires money to buy the licence).**
+
+4) **After having both the licence and the pandora box, open up pandora server management, in it you need to open the media server( if you have direct connection from the laptop to the server with the licence). Ensure that the IP address are in the same subnets for direct commnications on both the media server and the laptop.** 
+
+5) **Afterwards, you can *open the Pandora Box application,both on laptop and in server management,* create new project( ensure that after opening new project, you could see the server icon ). Add the live stream media and video assets needed into the media server, and both the assets needs to be on different layers. From there, the projectors should be able to livestream the output from laptop onto the table/screen.**
+
+6) **Add mesh by right clicking of the folder, rename it for easy recognition, and you will be able to mesh edit your video output to the size of the table/screen that you are projecting them to.**
+
+---
 ## Installation:
 
 1) *Set up 2projectors(1 for coffee table, 1 for the wall/screen)*
@@ -100,20 +115,39 @@ D--> J[Button - Right Key]
 ***Also ensure that the driver is working properly in the amplifier for the speaker to be in working condition***
 ![Alt text](Addimg/photo_6339063505319213114_y.jpg)
 
-2) *Have a LGX AvaMedia CaptureCard (for livestreaming the game onto the table and screen)*
 
-3) *Ensure that the cables are connected from the laptop that you are going to livestream the game and the media server to the CaptureCard before output it to the 2projectors*
+2) *Ensure that the cables are connected from the laptop that you are going to livestream the game and the media server to the CaptureCard before output it to the 2projectors*
 
 ![Alt text](images314Github/IMG20230606143107.jpg)
 
-4) *Once that is done,would need to **install Christie Pandora Box with the licence** to do the meshing of the video and dual live output onto the table and screen*
+![Alt text](images314Github/SGCAM_20230606_165220717.jpg)
 
+![Alt text](images314Github/SGCAM_20230606_165119660.jpg)
+
+![Alt text](images314Github/SGCAM_20230606_164630966.jpg)
+
+![Alt text](images314Github/SGCAM_20230606_164744689.jpg)
 =======
 ### **Unity Hub**
 
 
-5) *Install Unity Hub before installing the Zip folder of the game*
+1) *Install Unity Hub before installing the Zip folder of the game*
 
-6) ***Unzip folder** of the game and opening it in Unity Hub*
+2) ***Unzip folder** of the game and opening it in Unity Hub*
 
-7) ***Build and run** the game and you should be good to go*
+3) ***Build and run** the game and you should be good to go*
+
+Testing Intructions:
+## **How to play?** 
+### ***Connect 4:***
+* Its a 2 player game( Green and Red )
+* They drop the discs into the grid( anywhere in the grid )**{depends on the column they selected}**
+* They have to stack their coloured discs vertically, horizontally or diagonally
+* First player to get 4 in a row wins the game
+* Use the controller provided to move the cursor and select the grid column
+
+## **Troubleshooting:**
+### ***What if the video is unable to livefeed onto the projector?***
+* Check the cabling from the CaptureCard to the media server. Change the cable if need to.
+* Check the driver of the CaptureCard to see if they are communicating with each other. If they are not able to communicate, reinstall the driver.
+* If its neither of them, check the pandora box, ensure that the layer that you are projecting out is visible(not hidden).
