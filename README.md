@@ -81,11 +81,11 @@ D--> I[Button - Left Key]
 D--> J[Button - Right Key]
 
 ```
----
+
 
 
 ## Installation
----
+
 ### Video Installation
 ---
 1) In our setup, we have 2 projectors setup(1 for table, 1 for the projection screen)
@@ -137,7 +137,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 ---
 
-6) In order to use christie pandora box, we require a dongle for the media server and the laptop.
+6) In order to use christie pandora box, we require a dongle(License to use pandora box) for the media server and the laptop.
 
 ---
 ![Alt text](images314Github/SGCAM_20230606_165119660.jpg)
@@ -147,7 +147,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 ---
 
 
----
+
 ### Audio Installation
 ---
 1) In our setup, we are using 4 active speakers. These speakers are placed below the table.
@@ -166,6 +166,11 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 6) To turn up the volume, simply slowly increase the laptop volume as well as make sure that the volume knob of the speakers are positioned in the 12 o'clock position.
 
+
+### Arduino Leonardo
+1) To use the Arduino Leonardo, connect it via USB-A to Micro USB to the Laptop.
+
+2) In our set up, we have connected one joystick and 5 buttons to out Arduino.
 
 
 
@@ -205,6 +210,26 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 3) In the webpage, find "Tools for UR44"
 
 4) Under that tab, find for "Tools for UR44 V2.2.2" for Window users or "Tools for UR44 V2.3.0" for MAC Users and click to download
+
+
+### Arduino Leonardo
+#### Download Arduino Sofware
+1) To start on the Arduino, search in Google for Arduino IDE
+
+2) Click on Download and Install Arduino IDE
+<a href>https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE</a>
+
+3) In the webpage under Installation Instructions, download the relevant IDE depending on the OS system you are using
+
+4) You can now start programming your Arduino!
+
+#### Arduino mouse and keyboard controls
+1) In your Arduino Leonardo, start by downloading the mouse and keyboard library
+
+2) To start off the code, we sourced for codes from the Arduino website as well as other webpages too. 
+   We then edited the code depending on what we have connected to our Arduino.
+
+3) To take note: Remember to always include the relevant library or the code will not work
 
 
 ## Testing Intructions:
