@@ -98,6 +98,7 @@ D--> J[Button - Right Key]
 ![Alt text](images314Github/IMG20230606143016.jpg)
 
 ***Also ensure that the driver is working properly in the amplifier for the speaker to be in working condition***
+![Alt text](Addimg/photo_6339063505319213114_y.jpg)
 
 2) *Have a LGX AvaMedia CaptureCard (for livestreaming the game onto the table and screen)*
 
