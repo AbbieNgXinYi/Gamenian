@@ -268,7 +268,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 * Players are given a controller to play the game.
 * To play, players would be required to click in any of the columns in the provided grid to drop their coloured discs.
 ---
-![Alt text](Connect4img/takeTurns.mp4)
+<source src="Connect4img/takeTurns.mp4" type="video/mp4">
 
 ---
 
