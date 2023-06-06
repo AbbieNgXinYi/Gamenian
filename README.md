@@ -1,55 +1,47 @@
 # Gamenian
-
+========
 ## Types of Coding Language(s)
-
 - C# 
-
----
-
+=======
 ## Game Development
-
----
-
 ### Two Player Game Code
 
 Game Development Foundation (Completion 100%)
 - Connect 4 (*POC*)
-- Air Hockey **(CANCELLED)**
 
 Game effects (Completion 100%)
 - <span style="color:lightgreen">Connect 4</span>
-
-Game Effects for Air Hockey(25% Completion) **{CANCELLED}**
-
----
 
 ### Single Player Game Code
 
 Game Development Foundation (Completion 100%)
 
-- **Buttons(CANCELLED){Compiling error}**
-
 - <span style="color:red">2048 (would need to add the Start and Quit buttons)</span>
 
-- Cat Clicker[to replace the Air Hockey game]
 
 Game effects(80% Completion)
 
-- <span style="color:red">2048 **(need the movement of the blocks and the game over sound effects)**</span>
+- <span style="color:red">2048 **(sound effects to be completed)**</span>
 
-- <span style="color:lightgreen">Cat Clicker **(100% Completion)**</span>
-
-
-## System Diagram
-
----
 =======
-
-
 ## Setup Progress
 ### Video Setup
-![Alt text](Imgdiagram/photo_6325431218992166877_y.jpg)
+```mermaid
+graph TD
 
+A[Laptop]--> B[Aver Media Capture Card]
+A--> C[HP Media Server]
+C--> D[DP to HDMI adapter]
+D--> E[Kramer PT-572+]
+E--> F[Kramer PT-571]
+F--> G[Projector 1]
+C--> H[DP to HDMI adapter]
+H--> I[Kramer PT-572+]
+I--> J[Kramer PT-571]
+J--> K[Projector 1]
+
+
+```
 
 ### Audio Setup
 ```mermaid
@@ -62,7 +54,6 @@ B--> G[Active Speaker 3]
 B--> H[Active Speaker 4]
 
 ```
-
 
 ### Control Setup
 #### Projector Control
@@ -90,22 +81,7 @@ D--> I[Button - Left Key]
 D--> J[Button - Right Key]
 
 ```
----
-## *Operational Instructions(Software):*
-
-1) *Have a LGX AvaMedia CaptureCard (for livestreaming the game onto the table and screen)*
-
-2) **Install LGX Livestream CaptureCard drive in your laptop in order for the CaptureCard to communicate with the laptop and the media server.**
-
-3) **After downloading Christie Pandora Box, and Christie Pandora Server Management, you would need to have a licence for the pandora box in order to be able to operate it( the licence can be in seperate hard drive like a thumbdrive, though it requires money to buy the licence).**
-
-4) **After having both the licence and the pandora box, open up pandora server management, in it you need to open the media server( if you have direct connection from the laptop to the server with the licence). Ensure that the IP address are in the same subnets for direct commnications on both the media server and the laptop.** 
-
-5) **Afterwards, you can *open the Pandora Box application,both on laptop and in server management,* create new project( ensure that after opening new project, you could see the server icon ). Add the live stream media and video assets needed into the media server, and both the assets needs to be on different layers. From there, the projectors should be able to livestream the output from laptop onto the table/screen.**
-
-6) **Add mesh by right clicking of the folder, rename it for easy recognition, and you will be able to mesh edit your video output to the size of the table/screen that you are projecting them to.**
-
----
+=======
 ## Installation:
 
 1) *Set up 2projectors(1 for coffee table, 1 for the wall/screen)*
@@ -133,31 +109,57 @@ D--> J[Button - Right Key]
 
 ![Alt text](images314Github/SGCAM_20230606_164744689.jpg)
 =======
-### **Unity Hub**
+## Operational Instructions:
+---
+### Christie Pandora Box
+---
+1) *Have a LGX AvaMedia CaptureCard (for livestreaming the game onto the table and screen)*
 
+2) **Install LGX Livestream CaptureCard drive in your laptop in order for the CaptureCard to communicate with the laptop and the media server.**
 
+3) **After downloading Christie Pandora Box, and Christie Pandora Server Management, you would need to have a licence for the pandora box in order to be able to operate it( the licence can be in seperate hard drive like a thumbdrive, though it requires money to buy the licence).**
+
+4) **After having both the licence and the pandora box, open up pandora server management, in it you need to open the media server( if you have direct connection from the laptop to the server with the licence). Ensure that the IP address are in the same subnets for direct commnications on both the media server and the laptop.** 
+
+5) **Afterwards, you can *open the Pandora Box application,both on laptop and in server management,* create new project( ensure that after opening new project, you could see the server icon ). Add the live stream media and video assets needed into the media server, and both the assets needs to be on different layers. From there, the projectors should be able to livestream the output from laptop onto the table/screen.**
+
+6) **Add mesh by right clicking of the folder, rename it for easy recognition, and you will be able to mesh edit your video output to the size of the table/screen that you are projecting them to.**
+
+---
+### Unity Hub
+---
 1) *Install Unity Hub before installing the Zip folder of the game*
 
 2) ***Unzip folder** of the game and opening it in Unity Hub*
 
 3) ***Build and run** the game and you should be good to go*
 
-Testing Intructions:
-## **How to play?** 
-### ***Connect 4:***
+
+
+
+
+## Testing Intructions:
+### How to play?
+---
+#### Connect 4
+---
 * Its a 2 player game( Green and Red )
 * They drop the discs into the grid( anywhere in the grid )**{depends on the column they selected}**
 * They have to stack their coloured discs vertically, horizontally or diagonally
 * First player to get 4 in a row wins the game
 * Use the controller provided to move the cursor and select the grid column
 
-## **Troubleshooting:**
-### ***What if the video is unable to livefeed onto the projector?***
-* Check the cabling from the CaptureCard to the media server. Change the cable if need to.
-* Check the driver of the CaptureCard to see if they are communicating with each other. If they are not able to communicate, reinstall the driver.
-* If its neither of them, check the pandora box, ensure that the layer that you are projecting out is visible(not hidden).
+### Troubleshooting:
+---
+#### What if the video is unable to livefeed onto the projector?
+---
+1) Check the cabling from the CaptureCard to the media server. Change the cable if need to.
 
-### **Audio:**
+2) Check the driver of the CaptureCard to see if they are communicating with each other. If they are not able to communicate, reinstall the driver.
+
+3) If its neither of them, check the pandora box, ensure that the layer that you are projecting out is visible(not hidden).
+
+#### Troubleshooting Audio Setup
 
 1) Ensure the audio cables and power cables are connected properly
 
