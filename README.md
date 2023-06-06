@@ -39,14 +39,12 @@ Game effects(80% Completion)
 
 - <span style="color:lightgreen">Cat Clicker **(100% Completion)**</span>
 
-<<<<<<< HEAD
+
 ## System Diagram
-
-
 
 ---
 =======
->>>>>>> 7c67b005e04433aaeaa93c83d4ef5df245e59572
+
 
 ## Setup Progress
 ### Video Setup
