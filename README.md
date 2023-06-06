@@ -88,11 +88,13 @@ D--> J[Button - Right Key]
 
 ## Installation:
 
-1) *Set up 2projectors(1 for coffee table, 1 for the wall/screen), and ensure that the cables are properly connected to UR44(amplifier) to the speakers from the laptop and properly powered on*
-**The cable from the laptop to the amplifier is USB type B to USB type A**
-
+1) *Set up 2projectors(1 for coffee table, 1 for the wall/screen)*
 ![Alt text](images314Github/-6339063505319213120_121.jpg)
 
+2) *Ensure that the cables are properly connected to UR44(amplifier) to the speakers from the laptop and properly powered on*
+**The cable from the laptop to the amplifier is USB type B to USB type A**
+
+*the image below is connection to amplifier to speaker*
 ![Alt text](images314Github/IMG20230606143016.jpg)
 
 ***Also ensure that the driver is working properly in the amplifier for the speaker to be in working condition***
