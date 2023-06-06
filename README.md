@@ -84,7 +84,7 @@ D--> J[Button - Right Key]
 
 
 
-## Installation
+## Installation phase
 
 ### Video Installation
 ---
@@ -154,9 +154,24 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 2) As active speakers require power to be used, we will be plugging in IEC to 13A plug to a power strip.
 
+---
+![Alt text](images314Github/SGCAM_20230606_143108737.jpg)
+
+---
+
 3) To project sound out from the speakers from the laptop, we will be using the Steinberg UR44(Audio Interface).
 
+---
+![Alt text](images314Github/SGCAM_20230606_142936732.jpg)
+
+---
+
 3) The speakers are connected to the Steinberg UR 44 via TS 1/4 inch to XLR Cable.
+
+---
+![Alt text](images314Github/SGCAM_20230606_163714794.jpg)
+
+---
 
 4) The Steinberg UR44 is connected to the Laptop via USB-A to USB-B.
 
@@ -166,6 +181,11 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 6) To turn up the volume, simply slowly increase the laptop volume as well as make sure that the volume knob of the speakers are positioned in the 12 o'clock position.
 
+---
+![Alt text](images314Github/SGCAM_20230606_164005111.jpg)
+
+---
+
 
 ### Arduino Leonardo
 1) To use the Arduino Leonardo, connect it via USB-A to Micro USB to the Laptop.
@@ -174,7 +194,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 
 
-## Operational Instructions:
+## Operational Phase
 ---
 ### Christie Pandora Box
 ---
@@ -229,19 +249,50 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 2) To start off the code, we sourced for codes from the Arduino website as well as other webpages too. 
    We then edited the code depending on what we have connected to our Arduino.
 
+3) First, we tested out the mouse control as well as the mouse click codes.
+
+4) We then tested out the keyboard control code to check if the buttons that we want to use is synced with the Arduino buttons.
+
+5) We then combined the codes together and tested them out to see if the codes would conflict with one another.
+
 3) To take note: Remember to always include the relevant library or the code will not work
 
 
-## Testing Intructions:
-### How to play?
+
+
+## Testing Phase
 ---
 #### Connect 4
 ---
-* Its a 2 player game( Green and Red )
-* They drop the discs into the grid( anywhere in the grid )**{depends on the column they selected}**
-* They have to stack their coloured discs vertically, horizontally or diagonally
-* First player to get 4 in a row wins the game
-* Use the controller provided to move the cursor and select the grid column
+* Its a 2 player game.
+* Players are given a controller to play the game.
+* To play, players would be required to click in any of the columns in the provided grid to drop their coloured discs.
+---
+![Alt text](Connect4img/takeTurns.mp4)
+
+---
+
+* To win the game, the first player that gets 4 in a row, vertically, horizontally or diagonally, wins the game.
+---
+![Alt text](Connect4img/win1.jpeg)
+
+![Alt text](Connect4img/win2.jpeg)
+
+![Alt text](Connect4img/win3.jpeg)
+
+---
+* To restart the game, click on the start button
+---
+![Alt text](Connect4img/startBTN.png)
+
+---
+
+* To quit the game, click on the quit button
+---
+![Alt text](Connect4img/quitBTN.png)
+
+---
+
 
 ### Troubleshooting:
 ---
