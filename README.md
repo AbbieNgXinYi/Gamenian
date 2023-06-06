@@ -39,20 +39,65 @@ Game effects(80% Completion)
 
 - <span style="color:lightgreen">Cat Clicker **(100% Completion)**</span>
 
+<<<<<<< HEAD
 ## System Diagram
 
 
 
 ---
+=======
+>>>>>>> 7c67b005e04433aaeaa93c83d4ef5df245e59572
 
 ## Setup Progress
+### Video Setup
+### Audio Setup
+```mermaid
+graph TD
 
----
+A[Laptop]--> B[Steinberg UR44]
+B--> E[Active Speaker 1]
+B--> F[Active Speaker 2]
+B--> G[Active Speaker 3]
+B--> H[Active Speaker 4]
+
+```
+### Control Setup
+#### Projector Control
+```mermaid
+graph TD
+
+A[Laptop]--> B[Network Switch]
+B--> C[Crestron Processor - CP3]
+B--> D[Projector 1]
+B--> E[Projector 2]
+
+```
+#### Arudino Control
+```mermaid
+graph TD
+
+A[Micro USB]--> B[Laptop]
+A--> C[Arduino]
+C--> D[Breadboard]
+D--> E[Joystick]
+D--> F[Button - Mouse Click]
+D--> G[Button - Up Key]
+D--> H[Button - Down Key]
+D--> I[Button - Left Key]
+D--> J[Button - Right Key]
+
+```
 
 ## Installation:
 
+<<<<<<< HEAD
 1) *Set up 2projectors(1 for coffee table, 1 for the wall/screen), and ensure that the cables are properly connected to UR44(amplifier) to the speakers from the laptop and properly powered on*
 **The cable from the laptop to the amplifier is USB type B to USB type A**
+=======
+### Unity Hub
+
+1) *Install Unity Hub before installing the Zip folder of the game*
+
 
 ***Also ensure that the driver is working properly in the amplifier for the speaker to be in working condition***
 
