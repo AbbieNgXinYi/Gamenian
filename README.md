@@ -268,7 +268,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 * Players are given a controller to play the game.
 * To play, players would be required to click in any of the columns in the provided grid to drop their coloured discs.
 ---
-<video src="Connect4img/takeTurns.mp4"></video>
+<a href>https://github.com/AbbieNgXinYi/Gamenian/blob/main/Connect4img/takeTurns.mp4</a>
 ---
 
 * To win the game, the first player that gets 4 in a row, vertically, horizontally or diagonally, wins the game.
