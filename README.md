@@ -52,7 +52,16 @@ Game effects(80% Completion)
 
 
 ### Audio Setup
-![Alt text](Imgdiagram/photo_6325431218992166875_y.jpg)
+```mermaid
+graph TD
+
+A[Laptop]--> B[Steinberg UR44]
+B--> E[Active Speaker 1]
+B--> F[Active Speaker 2]
+B--> G[Active Speaker 3]
+B--> H[Active Speaker 4]
+
+```
 
 
 ### Control Setup
