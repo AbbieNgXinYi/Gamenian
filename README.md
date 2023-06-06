@@ -90,14 +90,8 @@ D--> J[Button - Right Key]
 
 ## Installation:
 
-<<<<<<< HEAD
 1) *Set up 2projectors(1 for coffee table, 1 for the wall/screen), and ensure that the cables are properly connected to UR44(amplifier) to the speakers from the laptop and properly powered on*
 **The cable from the laptop to the amplifier is USB type B to USB type A**
-=======
-### Unity Hub
-
-1) *Install Unity Hub before installing the Zip folder of the game*
-
 
 ***Also ensure that the driver is working properly in the amplifier for the speaker to be in working condition***
 
@@ -106,6 +100,10 @@ D--> J[Button - Right Key]
 3) *Ensure that the cables are connected from the laptop that you are going to livestream the game and the media server to the CaptureCard before output it to the 2projectors*
 
 4) *Once that is done,would need to **install Christie Pandora Box with the licence** to do the meshing of the video and dual live output onto the table and screen*
+
+=======
+### **Unity Hub**
+
 
 5) *Install Unity Hub before installing the Zip folder of the game*
 
