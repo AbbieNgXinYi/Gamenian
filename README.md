@@ -48,17 +48,13 @@ Game effects(80% Completion)
 
 ## Setup Progress
 ### Video Setup
+![Alt text](Imgdiagram/photo_6325431218992166877_y.jpg)
+
+
 ### Audio Setup
-```mermaid
-graph TD
+![Alt text](Imgdiagram/photo_6325431218992166875_y.jpg)
 
-A[Laptop]--> B[Steinberg UR44]
-B--> E[Active Speaker 1]
-B--> F[Active Speaker 2]
-B--> G[Active Speaker 3]
-B--> H[Active Speaker 4]
 
-```
 ### Control Setup
 #### Projector Control
 ```mermaid
@@ -151,3 +147,22 @@ Testing Intructions:
 * Check the cabling from the CaptureCard to the media server. Change the cable if need to.
 * Check the driver of the CaptureCard to see if they are communicating with each other. If they are not able to communicate, reinstall the driver.
 * If its neither of them, check the pandora box, ensure that the layer that you are projecting out is visible(not hidden).
+
+### **Audio:**
+
+1) Ensure the audio cables and power cables are connected properly
+
+2) make sure that the USB cable is plugged in from the UR44 to the computer **(or via usb hub tha was connected to the computer)**
+
+3) Switch on the UR44 power button **(located behind)**
+
+4) Swich on the power for the 4 active speakers **(black 13A POWER STRIP)**
+
+5) Ensure the speaker power button is on and the volume knok is positioned at 12 o clock position
+
+6) Install the drivers for UR44 at the steinberg website
+
+7) Make sure that the main volume is turned to the maximum
+
+8) the ur44 is ready to be used
+**(LOWER THE VOLUME FIRST BEFORE TESTING)**
