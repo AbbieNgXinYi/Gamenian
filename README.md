@@ -90,7 +90,7 @@ D--> J[Button - Right Key]
 ---
 1) In our setup, we have 2 projectors setup(1 for table, 1 for the projection screen)
 
----
+1) *Set up 2projectors(1 for coffee table, 1 for the wall/screen)*
 ![Alt text](images314Github/-6339063505319213120_121.jpg)
 
 ---
@@ -302,3 +302,5 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 3) If its neither of them, check the pandora box, ensure that the layer that you are projecting out is visible(not hidden).
 
+
+7) ***Build and run** the game and you should be good to go*
