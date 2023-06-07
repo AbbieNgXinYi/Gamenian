@@ -133,7 +133,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
    laptop as we will be live streaming our content through christie pandora box(Projection mapping software).
 
 ---
-![Alt text](images314Github/IMG20230606143107.jpg)
+![Alt text](images314Github/SGCAM_20230606_143539821.jpg)
 
 ---
 
@@ -226,6 +226,8 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 2) To download the driver, click on this link below:
 <a href>https://o.steinberg.net/en/support/downloads_hardware/downloads_ur44.html</a>
+
+![Alt text](images314Github/UR44%20-1.png)
 
 3) In the webpage, find "Tools for UR44"
 
