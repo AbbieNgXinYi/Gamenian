@@ -197,13 +197,20 @@ D--> J[Button - Right Key]
 ### PB Management
 1) Download PB management application. Note that you would need to obtain a license to use the software. 
 
-2) Wait for the Server Box to say online before clicking the box.
+2) In the PB management workspace, wait for the server icon to turn **blue** and its state to say **online** 
+   before clicking the icon.
 
-3) After clicking on the box, you would be directed to an interface called the **PB Menu** with different applications.
+   ![Alt text](PBImg/icon.png)
+
+3) After clicking on the icon, you would be directed to an interface called the **PB Menu** with different applications.
 
 4) In PB Menu, click on **Pandora Box**.
 
+   ![Alt text](PBImg/icon2.png)
+
 5) You would be shown a client interface. In that page, click on **Full Screen**.
+
+   ![Alt text](PBImg/icon3.png)
 
 
 ### Aver Media Capture Card
