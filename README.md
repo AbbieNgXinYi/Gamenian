@@ -119,16 +119,22 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 ![Alt text](images314Github/SGCAM_20230606_165220717.jpg)
 
+5) Note: HDMI Extenders help ensure proper and stable cable management
+    * Help reduce hardware issues that relate to the cabling like:
+        1) lose connection 
+        2) Cable being pulled out
+    * Extenders run on LAN cables for extension
+        1) LAN cables have a locking mechanism while HDMI cables do not. This ensures that aren't lose or pulled out easily.
 
 
-5) Next, we would connect the media server to the laptop via LAN to project out our content.
+6) Next, we would connect the media server to the laptop via LAN to project out our content.
 
 
 ![Alt text](images314Github/SGCAM_20230606_143222420.jpg)
 
 
 
-5) In our setup, we will be using a capture card(Aver Media) connected via USB-A to USB Micro B to the media server and 
+7) In our setup, we will be using a capture card(Aver Media) connected via USB-A to USB Micro B to the media server and 
    laptop as we will be live streaming our content through christie pandora box(Projection mapping software).
 
 
@@ -136,7 +142,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 
 
-6) In order to use christie pandora box, we require a dongle(License to use pandora box) for the media server and the laptop.
+8) In order to use christie pandora box, we require a dongle(License to use pandora box) for the media server and the laptop.
 
 
 ![Alt text](images314Github/SGCAM_20230606_165119660.jpg)
@@ -337,6 +343,15 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 * Check the driver of the CaptureCard to see if they are communicating with each other. If they are not able to communicate, reinstall the driver.
 * If its neither of them, check the pandora box, ensure that the layer that you are projecting out is visible(not hidden).
 
+#### Aver Media Capture Card
+* Check if the Capture Card LED if lit Blue
+
+* If not lit blue but red:
+   1) Check the USB and HDMI cables - change if necessary
+   2) Check for lose cable connection
+   3) Check if cable is connected to the right source
+      - If using media server, USB cable plug to Media server, not laptop
+      - Not using media servr, USB plug to Laptop
 
 #### PB Management 
 * If you press **X** on the client interface and when you press Pandora Box and it says it is open when you have closed it:
