@@ -221,27 +221,34 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 3) *After downloading and installing Unity Hub into your device, boot it up* 
 
 4)  *After opening Unity Hub, you should see this screen below.*
-![Alt text]()
+![Alt text](UnityHub/accountunity.jpg)
 
 5) *Sign in if you already have an account before. If not, Create account*
-![Alt text]()
+![Alt text](UnityHub/SigninUnity.jpg)
+
+![Alt text](UnityHub/createUnity.jpg)
 
 6) *After you create an account and signed in, you will see this screen*
-![Alt text]()
+![Alt text](UnityHub/menuscreen.jpg)
 
-7) *Create new project and pick 3D option. Rename the project to your liking*
-![Alt text]()
-![Alt text]()
+7) *Click **New Project** to create new project and pick 3D option. Rename the project to your liking*
+![Alt text](UnityHub/newprojunity.jpg)
 
+![Alt text](UnityHub/optionsunity.jpg)
+
+![Alt text](UnityHub/3Doption.jpg)
+
+![Alt text](UnityHub/gamecreationunity.jpg)
 8) *After opening a new project, you can now go to your folder, and unzip the game folder. You should be able to see the game open up, ready to be played.*
-![Alt text]()
+![Alt text](UnityHub/connect4screen.jpg)
 
 9) *Once those are done, click file and select **Build Settings***
-![Alt text]()
+![Alt text](UnityHub/connect4file.jpg)
 
 10) *Remove the preview of the sample scene so that you can only see the game itself after **build and run** the game*
-![Alt text]()
-![Alt text]()
+![Alt text](UnityHub/buildsetting.jpg)
+
+![Alt text](UnityHub/Buildnrun.jpg)
 
 ---
 ### Audio Software Installation
