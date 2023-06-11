@@ -83,95 +83,84 @@ D--> J[Button - Right Key]
 ```
 
 
-
+---
 ## Installation phase
 
 ### Video Installation
----
 1) In our setup, we have 2 projectors setup(1 for table, 1 for the projection screen)
 
 1) *Set up 2projectors(1 for coffee table, 1 for the wall/screen)*
 ![Alt text](images314Github/-6339063505319213120_121.jpg)
 
----
+
 
 2) The position of the projector for the table is faced down while the projector for the projection screen is faced forward.
 
----
+
 ![Alt text](images314Github/SGCAM_20230530_173849279.jpg)
 
----
+
 
 3) 
 Both projectors would be connected to the media server via HDMI.
 We required the use of 2 DP to HDMI Adapters as the server only accepts DP and we only had HDMI cables.
 
----
+
 ![Alt text](images314Github/SGCAM_20230606_143235204.jpg)
 
 ![Alt text](images314Github/SGCAM_20230606_165027870.jpg)
 
 
----
+
 
 4) Due to the distance of the projector and media server being a few meters away from each other, we used 2 pairs of 
    HDMI extenders to increase the reach for the HDMI cables.
 
----
+
 ![Alt text](images314Github/SGCAM_20230606_165220717.jpg)
 
----
+
 
 5) Next, we would connect the media server to the laptop via LAN to project out our content.
 
----
+
 ![Alt text](images314Github/SGCAM_20230606_143222420.jpg)
 
----
+
 
 5) In our setup, we will be using a capture card(Aver Media) connected via USB-A to USB Micro B to the media server and 
    laptop as we will be live streaming our content through christie pandora box(Projection mapping software).
 
----
+
 ![Alt text](images314Github/SGCAM_20230606_143539821.jpg)
 
----
+
 
 6) In order to use christie pandora box, we require a dongle(License to use pandora box) for the media server and the laptop.
 
----
+
 ![Alt text](images314Github/SGCAM_20230606_165119660.jpg)
 
 ![Alt text](images314Github/SGCAM_20230606_164630966.jpg)
 
----
-
-
 
 ### Audio Installation
----
 1) In our setup, we are using 4 active speakers. These speakers are placed below the table.
 
 2) As active speakers require power to be used, we will be plugging in IEC to 13A plug to a power strip.
 
----
 ![Alt text](images314Github/SGCAM_20230606_143108737.jpg)
 
----
 
 3) To project sound out from the speakers from the laptop, we will be using the Steinberg UR44(Audio Interface).
 
----
 ![Alt text](images314Github/SGCAM_20230606_142936732.jpg)
 
----
 
 3) The speakers are connected to the Steinberg UR 44 via TS 1/4 inch to XLR Cable.
 
----
 ![Alt text](images314Github/SGCAM_20230606_163714794.jpg)
 
----
 
 4) The Steinberg UR44 is connected to the Laptop via USB-A to USB-B.
 
@@ -181,10 +170,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 6) To turn up the volume, simply slowly increase the laptop volume as well as make sure that the volume knob of the speakers are positioned in the 12 o'clock position.
 
----
 ![Alt text](images314Github/SGCAM_20230606_164005111.jpg)
-
----
 
 
 ### Arduino Leonardo
@@ -192,23 +178,43 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 2) In our set up, we have connected one joystick and 5 buttons to out Arduino.
 
-
+---
 
 ## Operational Phase
----
+
+### PB Management
+1) Download PB management application. Note that you would need to obtain a license to use the software. 
+
+2) Wait for the Server Box to say online before clicking the box.
+
+3) After clicking on the box, you would be directed to an interface called the **PB Menu** with different applications.
+
+4) In PB Menu, click on **Pandora Box**.
+
+5) You would be shown a client interface. In that page, click on **Full Screen**.
+
+
+### Aver Media Capture Card
+1) In our setup, we are using a **Capture Card** to live stream our game through **Christie Pandora Box**.
+
+2) We are using the LGX Aver Media Capture Card.
+
+3) For this Capture Card, you would need to install the LGX Livestream CaptureCard drive in your laptop in order for the CaptureCard to communicate with the laptop and the media server.
+
+
 ### Christie Pandora Box
----
-1) *Have a LGX Aver Media Capture Card (for livestreaming the game onto the table and screen)*
+1) To use Christie pandora box, you would need to download both the Christie pandora box and PB management application. You would also need to obtain a license(Dongle) to use the software. 
 
-2) **Install LGX Livestream CaptureCard drive in your laptop in order for the CaptureCard to communicate with the laptop and the media server.**
+2) If all requirements have been fulfilled, you may procced to plug in the dongle that contains the license to use the application into either the laptop if running on local, or a media server if u have one. Ensure that the IP address of the laptop is the same as the PB management too.
 
-3) **After downloading Christie Pandora Box, and Christie Pandora Server Management, you would need to have a licence for the pandora box in order to be able to operate it( the licence can be in seperate hard drive like a thumbdrive, though it requires money to buy the licence).**
+3) For the Pandora Box application, simply create a new project to start off. 
 
-4) **After having both the licence and the pandora box, open up pandora server management, in it you need to open the media server( if you have direct connection from the laptop to the server with the licence). Ensure that the IP address are in the same subnets for direct commnications on both the media server and the laptop.** 
+4) Find and click on the capture card name in the **assets tab** in the application.
 
-5) **Afterwards, you can *open the Pandora Box application,both on laptop and in server management,* create new project( ensure that after opening new project, you could see the server icon ). Add the live stream media and video assets needed into the media server, and both the assets needs to be on different layers. From there, the projectors should be able to livestream the output from laptop onto the table/screen.**
+5) In the capture card tab, find and click on **StreamiX live input**. In **StreamiX live input**, find the input with the name of the capture card that you are using and drag the input into a layer in the timeline.
 
-6) **Add mesh by right clicking of the folder, rename it for easy recognition, and you will be able to mesh edit your video output to the size of the table/screen that you are projecting them to.**
+6)  As this software is a projection software, we can also add something called **editable mesh**, to help us size and fit our content depending on our display area. Right click on your project folder and click on **Add Editable Mesh**. You may rename the mesh to your liking.
+
 
 ---
 ### Unity Hub
@@ -294,13 +300,12 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 
 ## Testing Phase
----
+
 #### Connect 4
----
 * Its a 2 player game.
 * Players are given a controller to play the game.
 * To play, players would be required to click in any of the columns in the provided grid to drop their coloured discs.
-<a href>https://github.com/AbbieNgXinYi/Gamenian/blob/main/Connect4img/takeTurns.mp4</a>
+<https://github.com/AbbieNgXinYi/Gamenian/blob/main/Connect4img/takeTurns.mp4>
 
 
 * To win the game, the first player that gets 4 in a row, vertically, horizontally or diagonally, wins the game.
@@ -326,14 +331,53 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 
 ### Troubleshooting:
----
+
 #### What if the video is unable to livefeed onto the projector?
----
-1) Check the cabling from the CaptureCard to the media server. Change the cable if need to.
-
-2) Check the driver of the CaptureCard to see if they are communicating with each other. If they are not able to communicate, reinstall the driver.
-
-3) If its neither of them, check the pandora box, ensure that the layer that you are projecting out is visible(not hidden).
+* Check the cabling from the CaptureCard to the media server. Change the cable if need to.
+* Check the driver of the CaptureCard to see if they are communicating with each other. If they are not able to communicate, reinstall the driver.
+* If its neither of them, check the pandora box, ensure that the layer that you are projecting out is visible(not hidden).
 
 
-7) ***Build and run** the game and you should be good to go*
+#### PB Management 
+* If you press **X** on the client interface and when you press Pandora Box and it says it is open when you have closed it:
+    1) Find **Taskbar** and switch it on
+    2) Now, you should be able to see the taskbar in your PB Menu page
+    3) Find the Pandora Box tab and click on it to get back the Pandora Box client interface
+
+* Ensure that the IP address of the laptop is the same as the PB management too.
+
+#### Christie Pandora Box
+* Make sure that dongle is plugged in either in the server or laptop
+
+* If the projector has been switched on and off, and content is not displayed:
+   1) Save your file first
+   2) Close **Christie Pandora Box** and in PB management, click on **disconnect**
+   3) After you have disconnected, you may either:
+      - Close the whole PB Management
+      <br> OR
+      - Right Click on the box which says Server[Number depends on how many servers you have]
+      - Find **System** and in that tab, click on **Reboot**
+
+* If you are unable to preview your content in pandora box:
+   1) Make sure that you have clicked on **toggle preview**
+   2) In pandora box find and click on **all cameras** 
+
+* If you can't find your mesh:
+    1) In pandora box find and click on **all cameras** 
+    2) Check which **layer output** you are on 
+
+
+#### Arduino
+* Check the IDE software if its affecting the arduino 
+
+* If unable to download code due to software:
+   1) Save your code first
+   2) Uninstall IDE and reinstall it
+
+* Check if Arduino is online or offline
+
+* If offline:
+   1) Check the port - check if you have connected to the port
+   2) Check if you have connected to the correct Arduino
+
+* If not software issue, check whether your Arduino is corrupted. If hardware issue, change it.
