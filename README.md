@@ -89,21 +89,16 @@ D--> J[Button - Right Key]
 ### Video Installation
 1) In our setup, we have 2 projectors setup(1 for table, 1 for the projection screen)
 
-1) *Set up 2projectors(1 for coffee table, 1 for the wall/screen)*
 ![Alt text](images314Github/-6339063505319213120_121.jpg)
-
 
 
 2) The position of the projector for the table is faced down while the projector for the projection screen is faced forward.
 
-
 ![Alt text](images314Github/SGCAM_20230530_173849279.jpg)
 
 
-
-3) 
-Both projectors would be connected to the media server via HDMI.
-We required the use of 2 DP to HDMI Adapters as the server only accepts DP and we only had HDMI cables.
+3) Both projectors would be connected to the media server via HDMI.
+   We required the use of 2 DP to HDMI Adapters as the server only accepts DP and we only had HDMI cables.
 
 
 ![Alt text](images314Github/SGCAM_20230606_143235204.jpg)
@@ -147,7 +142,6 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 ![Alt text](images314Github/SGCAM_20230606_165119660.jpg)
 
-![Alt text](images314Github/SGCAM_20230606_164630966.jpg)
 
 
 ### Audio Installation
@@ -158,31 +152,41 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 ![Alt text](images314Github/SGCAM_20230606_143108737.jpg)
 
 
-3) To project sound out from the speakers from the laptop, we will be using the Steinberg UR44(Audio Interface).
+4) To project sound out from the speakers from the laptop, we will be using the Steinberg UR44(Audio Interface).
 
 ![Alt text](images314Github/SGCAM_20230606_142936732.jpg)
 
 
-3) The speakers are connected to the Steinberg UR 44 via TS 1/4 inch to XLR Cable.
+5) The speakers are connected to the Steinberg UR 44 via TS 1/4 inch to XLR Cable.
 
 ![Alt text](images314Github/SGCAM_20230606_163714794.jpg)
 
 
-4) The Steinberg UR44 is connected to the Laptop via USB-A to USB-B.
+6) The Steinberg UR44 is connected to the Laptop via USB-A to USB-B.
 
-5) All power strips, active speakers and the Steinberg UR44 power should all be switched on.
+7) All power strips, active speakers and the Steinberg UR44 power should all be switched on.
      * The active speaker power button is located at the back of the speaker
      * The Steinberg UR44 power button is loacted at the back of the audio interface
 
-6) To turn up the volume, simply slowly increase the laptop volume as well as make sure that the volume knob of the speakers are positioned in the 12 o'clock position.
+8) To turn up the volume, simply slowly increase the laptop volume as well as make sure that the volume knob of the speakers are positioned in the 12 o'clock position.
 
 ![Alt text](images314Github/SGCAM_20230606_164005111.jpg)
 
 
 ### Arduino Leonardo
+<br>
+
+![Alt text](ArduinoImg/Arduino1.jpeg)
+
+<br>
 1) To use the Arduino Leonardo, connect it via USB-A to Micro USB to the Laptop.
 
-2) In our set up, we have connected one joystick and 5 buttons to out Arduino.
+2) We have used a passive USB extender due to the location of where our Laptop and Arduino is placed.
+
+2) In our set up, we have connected one joystick and 5 buttons to our Arduino.
+<br>
+
+![Alt text](ArduinoImg/Arduino2.jpeg)
 
 ---
 
@@ -224,7 +228,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 ---
 ### Unity Hub
----
+
 1) *Install Unity Hub from their official site. Here is the link to download Unity Hub into your devices. Select either Windows or Mac.**[Depending on your devices]***
 <a href>https://unity.com/download</a>
 
@@ -264,7 +268,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 ---
 ### Audio Software Installation
----
+
 1) To use the Steinberg UR44, you would be required to download the specific driver from their website
 
 2) To download the driver, click on this link below:
@@ -282,14 +286,15 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 1) To start on the Arduino, search in Google for Arduino IDE
 
 2) Click on Download and Install Arduino IDE
-<a href>https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE</a>
+
+<https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE>
 
 3) In the webpage under Installation Instructions, download the relevant IDE depending on the OS system you are using
 
 4) You can now start programming your Arduino!
 
 #### Arduino mouse and keyboard controls
-1) In your Arduino Leonardo, start by downloading the mouse and keyboard library
+1) In your Arduino Leonardo, start by downloading the **mouse and keyboard library**
 
 2) To start off the code, we sourced for codes from the Arduino website as well as other webpages too. 
    We then edited the code depending on what we have connected to our Arduino.
@@ -300,7 +305,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 
 5) We then combined the codes together and tested them out to see if the codes would conflict with one another.
 
-3) To take note: Remember to always include the relevant library or the code will not work
+3) To take note: **Remember to always include the relevant library or the code will not work**
 
 
 
@@ -311,6 +316,7 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 * Its a 2 player game.
 * Players are given a controller to play the game.
 * To play, players would be required to click in any of the columns in the provided grid to drop their coloured discs.
+
 <https://github.com/AbbieNgXinYi/Gamenian/blob/main/Connect4img/takeTurns.mp4>
 
 
