@@ -213,11 +213,35 @@ We required the use of 2 DP to HDMI Adapters as the server only accepts DP and w
 ---
 ### Unity Hub
 ---
-1) *Install Unity Hub before installing the Zip folder of the game*
+1) *Install Unity Hub from their official site. Here is the link to download Unity Hub into your devices. Select either Windows or Mac.**[Depending on your devices]***
+<a href>https://unity.com/download</a>
 
-2) ***Unzip folder** of the game and opening it in Unity Hub*
+2) *Install the Latest version of Unity for the best features*
 
-3) ***Build and run** the game and you should be good to go*
+3) *After downloading and installing Unity Hub into your device, boot it up* 
+
+4)  *After opening Unity Hub, you should see this screen below.*
+![Alt text]()
+
+5) *Sign in if you already have an account before. If not, Create account*
+![Alt text]()
+
+6) *After you create an account and signed in, you will see this screen*
+![Alt text]()
+
+7) *Create new project and pick 3D option. Rename the project to your liking*
+![Alt text]()
+![Alt text]()
+
+8) *After opening a new project, you can now go to your folder, and unzip the game folder. You should be able to see the game open up, ready to be played.*
+![Alt text]()
+
+9) *Once those are done, click file and select **Build Settings***
+![Alt text]()
+
+10) *Remove the preview of the sample scene so that you can only see the game itself after **build and run** the game*
+![Alt text]()
+![Alt text]()
 
 ---
 ### Audio Software Installation
