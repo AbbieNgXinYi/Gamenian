@@ -270,7 +270,12 @@ D--> J[Button - Right Key]
 9) *Once those are done, click file and select **Build Settings***
 ![Alt text](UnityHub/connect4file.jpg)
 
-10) *Remove the preview of the sample scene so that you can only see the game itself after **build and run** the game*
+10) *Remove the preview of the sample scene so that you can only see the game itself after **build and run** the game. If not, you see a **blue screen** after runnning the game*
+
+![Alt text](UnityHub/filedown.jpg)
+
+![Alt text](UnityHub/filedownbuildsetting.jpg)
+
 ![Alt text](UnityHub/buildsetting.jpg)
 
 ![Alt text](UnityHub/Buildnrun.jpg)
