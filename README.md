@@ -276,10 +276,21 @@ D--> J[Button - Right Key]
 
 ![Alt text](UnityHub/filedownbuildsetting.jpg)
 
+
+* Below are some of the screenshots of when you did not remove preview on sample scene
+
+![Alt text](UnityHub/with%20sample.jpg)
+
+* you will be given a blue screen instead of the game screen
+![Alt text](UnityHub/bluescreen.jpg)
+
+* Below are some screen shots where you remove the sample scene
 ![Alt text](UnityHub/buildsetting.jpg)
 
 ![Alt text](UnityHub/Buildnrun.jpg)
 
+* you should see this screen instead of blue screen
+![Alt text](connect4img/win1.jpeg)
 ---
 ### Audio Software Installation
 
