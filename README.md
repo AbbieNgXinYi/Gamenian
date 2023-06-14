@@ -248,19 +248,19 @@ D--> J[Button - Right Key]
 
 ### Unity Hub
 
+#### Starting on Unity Hub
+
 1) Install Unity Hub from their official site. Here is the link to download Unity Hub into your devices. Select either Windows or Mac.**[Depending on your devices]**
 
 <https://unity.com/download>
 
-2) Install the Latest version of Unity for the best features
+2) After downloading and installing Unity Hub into your device, boot it up
 
-3) After downloading and installing Unity Hub into your device, boot it up
-
-4) After opening Unity Hub, you should see this screen below.
+3) After opening Unity Hub, you should see this screen below.
 
    ![Alt text](UnityHub/accountunity.jpg)
 
-5) Sign in if you already have an account before. If not, Create account
+4) Sign in if you already have an account before. If not, create a unity account.
 
    ![Alt text](UnityHub/SigninUnity.jpg)
 
@@ -268,69 +268,57 @@ D--> J[Button - Right Key]
 
    ![Alt text](UnityHub/createUnity.jpg)
 
-6) After you create an account and signed in, you will see this screen
+5) Once you have sign in with your account, you should see this interface.
 
    ![Alt text](UnityHub/menuscreen.jpg)
 
 
-7) Click **New Project** to create new project and pick 3D option. Rename the project to your liking
+6) To start creating your game, click on **New Project**. You may rename the project to your liking.
 
-   ![Alt text](UnityHub/filedown.jpg)
+   ![Alt text](UnityHub/newproject.png)
 
-<br>
+7a) For our games, we are using the 2D option. The option you choose depends on the type of game you are creating.
+
+   ![Alt text](UnityHub/coreoption.png)
+
+7b) Once you have decided what kind of game you ae making, click on **Create Project**
+
+   ![Alt text](UnityHub/createproj.png)
+
+#### Building your game
+
+1) Once you are done with your game creation, to use it as an application, you would need to build your game.
+
+1a) Firstly, click on **file**
+
+   ![Alt text](UnityHub/file.png)
+
+1b) Secondly, find and click on **Build Settings**  
 
    ![Alt text](UnityHub/filedownbuildsetting.jpg)
 
-8) Remove the preview of the sample scene so that you can only see the game itself after **build and run** the game. If not, you see a **blue screen** after runnning the game*
+2) Before building your game, check your build settings first before clicking on **Build and Run**.
 
-      * Below are some of the screenshots of when you did not remove preview on sample scene
+2a) Firstly, check which platform you are going to build your game with.
+    In our case, the platform we have used is **Windows, Mac, Linux**.
 
-         ![Alt text](UnityHub/with%20sample.jpg)
+   ![Alt text](UnityHub/platform.png)
 
-         * you will be given a blue screen instead of the game screen
-            ![Alt text](UnityHub/bluescreen.jpg)
+2b) Secondly, in **Scenes in Build**, remember to uncheck the **Scenes/SampleScene**. 
 
-      * Below are some screen shots where you remove the sample scene
-      
-         ![Alt text](UnityHub/buildsetting.jpg)
+   ![Alt text](UnityHub/scenebuild.png)
 
-      <br>
+2c) If you don't, you will be presented with a blue screen instead.
 
-         ![Alt text](UnityHub/newprojunity.jpg)
+   ![Alt text](UnityHub/bluescreen.jpg)
 
-<br>
+3) After you have check your **Build Settings**, you may now click on **Build and Run**.
 
-   ![Alt text](UnityHub/optionsunity.jpg)
+   ![Alt text](UnityHub/buildrun.png)
 
-<br>
+4) Once your game is build, you should see your game interface if all settings are as followed.
 
-   ![Alt text](UnityHub/3Doption.jpg)
-
-<br>
-
-   ![Alt text](UnityHub/gamecreationunity.jpg)
-
-<br>
-
-9) After opening a new project, you can now go to your folder, and unzip the game folder. You should be able to see the game open up, ready to be played.
-
-   ![Alt text](UnityHub/connect4screen.jpg)
-
-10) Once those are done, click file and select **Build Settings**
-
-   ![Alt text](UnityHub/connect4file.jpg)
-
-11) Remove the preview of the sample scene so that you can only see the game itself after **build and run** the game
-
-   ![Alt text](UnityHub/buildsetting.jpg)
-
-<br>
-
-   ![Alt text](UnityHub/Buildnrun.jpg)
-
-12) you should see this screen instead of blue screen
-
-   ![Alt text](Connect4img/win1.jpeg)
+   ![Alt text](UnityHub/buildscene.png)
 
 ---
 
@@ -432,6 +420,7 @@ D--> J[Button - Right Key]
       - If using media server, USB cable plug to Media server, not laptop
       - Not using media servr, USB plug to Laptop
 
+
 #### PB Management 
 
 * If you press **X** on the client interface and when you press Pandora Box and it says it is open when you have closed it:
@@ -440,6 +429,7 @@ D--> J[Button - Right Key]
     3) Find the Pandora Box tab and click on it to get back the Pandora Box client interface
 
 * Ensure that the IP address of the laptop is the same as the PB management too.
+
 
 #### Christie Pandora Box
 
@@ -478,3 +468,14 @@ D--> J[Button - Right Key]
    2) Check if you have connected to the correct Arduino
 
 * If not software issue, check whether your Arduino is corrupted. If hardware issue, change it.
+
+
+#### Unity Hub
+
+* When you don't remove preview on sample scene
+
+   ![Alt text](UnityHub/with%20sample.jpg)
+
+* you will be given a blue screen instead of the game screen
+
+   ![Alt text](UnityHub/bluescreen.jpg)
