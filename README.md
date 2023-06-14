@@ -277,11 +277,11 @@ D--> J[Button - Right Key]
 
    ![Alt text](UnityHub/newproject.png)
 
-7a) For our games, we are using the 2D option. The option you choose depends on the type of game you are creating.
+7) For our games, we are using the 2D option. The option you choose depends on the type of game you are creating.
 
    ![Alt text](UnityHub/coreoption.png)
 
-7b) Once you have decided what kind of game you ae making, click on **Create Project**
+8) Once you have decided what kind of game you ae making, click on **Create Project**
 
    ![Alt text](UnityHub/createproj.png)
 
@@ -472,10 +472,10 @@ D--> J[Button - Right Key]
 
 #### Unity Hub
 
-* When you don't remove preview on sample scene
+* Remember to uncheck the **Scenes/SampleScene**
 
    ![Alt text](UnityHub/with%20sample.jpg)
 
-* you will be given a blue screen instead of the game screen
+* If you uncheck the box, you will be given a blue screen instead of the game interface
 
    ![Alt text](UnityHub/bluescreen.jpg)
