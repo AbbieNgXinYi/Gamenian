@@ -354,7 +354,7 @@ D--> J[Button - Right Key]
 
 #### Arduino mouse and keyboard controls
 
-1) In your Arduino Leonardo, start by downloading the **mouse and keyboard library**
+1) In your Arduino Leonardo, start by searching and downloading the **mouse and keyboard library**
 
 2) To start off the code, we sourced for codes from the Arduino website as well as other webpages too. 
    We then edited the code depending on what we have connected to our Arduino.
@@ -365,10 +365,12 @@ D--> J[Button - Right Key]
 
 5) We then combined the codes together and tested them out to see if the codes would conflict with one another.
 
-3) To take note: **Remember to always include the relevant library or the code will not work**
+* To take note: **Remember to always include the relevant library or the code will not work**
 
-
-
+   ```
+   #include "Keyboard.h"
+   #include "Mouse.h"
+   ```
 
 ## Testing Phase
 
