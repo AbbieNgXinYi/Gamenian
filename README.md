@@ -1,28 +1,69 @@
 # Gamenian
 
+## Team Information
+
+**Abbie(Leader)**
+
+* Arduino Programming - Joystick and Buttons Control
+* Joystick and Buttons Hardware Interfacing to Arduino
+* Unity Code editing, Arduino Communication
+* PB Meshing - Table and Screen Projection
+
+**Sean(Assistant Leader)**
+
+* Arduino Programming - Joystick and Buttons Control
+* Joystick and Buttons Hardware Interfacing to Arduino
+* Unity Code editing, Arduino Communication
+* Video System setup
+
+**William(Member)**
+
+* Video System setup
+* Aduio System setup
+* Live Streaming setup for PB
+
+**Xin Yi(Member)**
+
+* PB Meshing - Table and Screen Projection
+* Unity Code GUI editing
+
+## Project Information
+
+### Objective
+
+**To give existing furniture more features:**
+
+* Allow users to be able to entertain a big group of people
+* Diverse usage of the same furniture
+* Help to save space
+
+
 ## Types of Coding Language(s)
-- C# 
+
+- C#
 
 ---
+
 ## Game Development
+
 ### Two Player Game Code
 
 Game Development Foundation (Completion 100%)
-- Connect 4 (*POC*)
+* Connect 4 (*POC*)
 
 Game effects (Completion 100%)
-- <span style="color:lightgreen">Connect 4</span>
+* <span style="color:lightgreen">Connect 4</span>
 
 ### Single Player Game Code
 
 Game Development Foundation (Completion 100%)
 
-- <span style="color:red">2048 (would need to add the Start and Quit buttons)</span>
-
+* <span style="color:red">2048 (would need to add the Start and Quit buttons)</span>
 
 Game effects(80% Completion)
 
-- <span style="color:red">2048 **(sound effects to be completed)**</span>
+* <span style="color:red">2048 **(sound effects to be completed)**</span>
+
 ---
 
 ## Setup Progress
@@ -90,6 +131,32 @@ D--> J[Button - Right Key]
 
 ```
 
+#### Network Settings
+
+```mermaid
+graph LR
+
+A[IP Address/Range] --> B[192.168.77.2 - 192.168.77.254]
+
+C[Router] --> D[192.168.77.7]
+
+```
+
+
+### Floor Plan
+
+
+
+### Cabling Layout
+
+
+
+
+### Rack layout
+
+
+
+
 ---
 
 ## Installation phase
@@ -100,54 +167,39 @@ D--> J[Button - Right Key]
 
 ![Alt text](images314Github/-6339063505319213120_121.jpg)
 
-
 2) The position of the projector for the table is faced down while the projector for the projection screen is faced forward.
 
 ![Alt text](images314Github/SGCAM_20230530_173849279.jpg)
 
-
 3) Both projectors would be connected to the media server via HDMI.
    We required the use of 2 DP to HDMI Adapters as the server only accepts DP and we only had HDMI cables.
-
 
 ![Alt text](images314Github/SGCAM_20230606_143235204.jpg)
 
 ![Alt text](images314Github/SGCAM_20230606_165027870.jpg)
 
-
-
-
-4) Due to the distance of the projector and media server being a few meters away from each other, we used 2 pairs of 
+4) Due to the distance of the projector and media server being a few meters away from each other, we used 2 pairs of
    HDMI extenders to increase the reach for the HDMI cables.
-
 
 ![Alt text](images314Github/SGCAM_20230606_165220717.jpg)
 
 5) Note: HDMI Extenders help ensure proper and stable cable management
     * Help reduce hardware issues that relate to the cabling like:
-        1) lose connection 
+        1) lose connection
         2) Cable being pulled out
     * Extenders run on LAN cables for extension
         1) LAN cables have a locking mechanism while HDMI cables do not. This ensures that aren't lose or pulled out easily.
 
-
 6) Next, we would connect the media server to the laptop via LAN to project out our content.
-
 
 ![Alt text](images314Github/SGCAM_20230606_143222420.jpg)
 
-
-
-7) In our setup, we will be using a capture card(Aver Media) connected via USB-A to USB Micro B to the media server and 
+7) In our setup, we will be using a capture card(Aver Media) connected via USB-A to USB Micro B to the media server and
    laptop as we will be live streaming our content through christie pandora box(Projection mapping software).
-
 
 ![Alt text](images314Github/SGCAM_20230606_143539821.jpg)
 
-
-
 8) In order to use christie pandora box, we require a dongle(License to use pandora box) for the media server and the laptop.
-
 
 ![Alt text](images314Github/SGCAM_20230606_165119660.jpg)
 
@@ -159,16 +211,13 @@ D--> J[Button - Right Key]
 
 ![Alt text](images314Github/SGCAM_20230606_143108737.jpg)
 
-
 4) To project sound out from the speakers from the laptop, we will be using the Steinberg UR44(Audio Interface).
 
 ![Alt text](images314Github/SGCAM_20230606_142936732.jpg)
 
-
 5) The speakers are connected to the Steinberg UR 44 via TS 1/4 inch to XLR Cable.
 
 ![Alt text](images314Github/SGCAM_20230606_163714794.jpg)
-
 
 6) The Steinberg UR44 is connected to the Laptop via USB-A to USB-B.
 
@@ -179,7 +228,6 @@ D--> J[Button - Right Key]
 8) To turn up the volume, simply slowly increase the laptop volume as well as make sure that the volume knob of the speakers are positioned in the 12 o'clock position.
 
 ![Alt text](images314Github/SGCAM_20230606_164005111.jpg)
-
 
 ### Arduino Leonardo
 
@@ -205,9 +253,9 @@ D--> J[Button - Right Key]
 
 ### PB Management
 
-1) Download PB management application. Note that you would need to obtain a license to use the software. 
+1) Download PB management application. Note that you would need to obtain a license to use the software.
 
-2) In the PB management workspace, wait for the server icon to turn **blue** and its state to say **online** 
+2) In the PB management workspace, wait for the server icon to turn **blue** and its state to say **online**
    before clicking the icon.
 
    ![Alt text](PBImg/icon.png)
@@ -232,11 +280,11 @@ D--> J[Button - Right Key]
 
 ### Christie Pandora Box
 
-1) To use Christie pandora box, you would need to download both the Christie pandora box and PB management application. You would also need to obtain a license(Dongle) to use the software. 
+1) To use Christie pandora box, you would need to download both the Christie pandora box and PB management application. You would also need to obtain a license(Dongle) to use the software.
 
 2) If all requirements have been fulfilled, you may procced to plug in the dongle that contains the license to use the application into either the laptop if running on local, or a media server if u have one. Ensure that the IP address of the laptop is the same as the PB management too.
 
-3) For the Pandora Box application, simply create a new project to start off. 
+3) For the Pandora Box application, simply create a new project to start off.
 
 4) Find and click on the capture card name in the **assets tab** in the application.
 
@@ -272,7 +320,6 @@ D--> J[Button - Right Key]
 
    ![Alt text](UnityHub/menuscreen.jpg)
 
-
 6) To start creating your game, click on **New Project**. You may rename the project to your liking.
 
    ![Alt text](UnityHub/newproject.png)
@@ -304,7 +351,7 @@ D--> J[Button - Right Key]
 
    ![Alt text](UnityHub/platform.png)
 
-2b) Secondly, in **Scenes in Build**, remember to uncheck the **Scenes/SampleScene**. 
+2b) Secondly, in **Scenes in Build**, remember to uncheck the **Scenes/SampleScene**.
 
    ![Alt text](UnityHub/scenebuild.png)
 
@@ -356,7 +403,7 @@ D--> J[Button - Right Key]
 
 1) In your Arduino Leonardo, start by searching and downloading the **mouse and keyboard library**
 
-2) To start off the code, we sourced for codes from the Arduino website as well as other webpages too. 
+2) To start off the code, we sourced for codes from the Arduino website as well as other webpages too.
    We then edited the code depending on what we have connected to our Arduino.
 
 3) First, we tested out the mouse control as well as the mouse click codes.
@@ -383,6 +430,7 @@ D--> J[Button - Right Key]
 <https://github.com/AbbieNgXinYi/Gamenian/blob/main/Connect4img/takeTurns.mp4>
 
 * To win the game, the first player that gets 4 in a row, vertically, horizontally or diagonally, wins the game.
+
 ---
 ![Alt text](Connect4img/win1.jpeg)
 
@@ -391,19 +439,22 @@ D--> J[Button - Right Key]
 ![Alt text](Connect4img/win3.jpeg)
 
 ---
+
 * To restart the game, click on the start button
+
 ---
 ![Alt text](Connect4img/startBTN.png)
 
 ---
 
 * To quit the game, click on the quit button
+
 ---
 ![Alt text](Connect4img/quitBTN.png)
 
 ---
 
-### Troubleshooting:
+### Troubleshooting
 
 #### What if the video is unable to livefeed onto the projector?
 
@@ -419,11 +470,10 @@ D--> J[Button - Right Key]
    1) Check the USB and HDMI cables - change if necessary
    2) Check for lose cable connection
    3) Check if cable is connected to the right source
-      - If using media server, USB cable plug to Media server, not laptop
-      - Not using media servr, USB plug to Laptop
+      * If using media server, USB cable plug to Media server, not laptop
+      * Not using media servr, USB plug to Laptop
 
-
-#### PB Management 
+#### PB Management
 
 * If you press **X** on the client interface and when you press Pandora Box and it says it is open when you have closed it:
     1) Find **Taskbar** and switch it on
@@ -431,7 +481,6 @@ D--> J[Button - Right Key]
     3) Find the Pandora Box tab and click on it to get back the Pandora Box client interface
 
 * Ensure that the IP address of the laptop is the same as the PB management too.
-
 
 #### Christie Pandora Box
 
@@ -441,23 +490,22 @@ D--> J[Button - Right Key]
    1) Save your file first
    2) Close **Christie Pandora Box** and in PB management, click on **disconnect**
    3) After you have disconnected, you may either:
-      - Close the whole PB Management
+      * Close the whole PB Management
       <br> OR
-      - Right Click on the box which says Server[Number depends on how many servers you have]
-      - Find **System** and in that tab, click on **Reboot**
+      * Right Click on the box which says Server[Number depends on how many servers you have]
+      * Find **System** and in that tab, click on **Reboot**
 
 * If you are unable to preview your content in pandora box:
    1) Make sure that you have clicked on **toggle preview**
-   2) In pandora box find and click on **all cameras** 
+   2) In pandora box find and click on **all cameras**
 
 * If you can't find your mesh:
-    1) In pandora box find and click on **all cameras** 
-    2) Check which **layer output** you are on 
-
+    1) In pandora box find and click on **all cameras**
+    2) Check which **layer output** you are on
 
 #### Arduino
 
-* Check the IDE software if its affecting the arduino 
+* Check the IDE software if its affecting the arduino
 
 * If unable to download code due to software:
    1) Save your code first
@@ -470,7 +518,6 @@ D--> J[Button - Right Key]
    2) Check if you have connected to the correct Arduino
 
 * If not software issue, check whether your Arduino is corrupted. If hardware issue, change it.
-
 
 #### Unity Hub
 
