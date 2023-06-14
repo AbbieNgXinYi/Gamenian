@@ -24,8 +24,11 @@ Game effects(80% Completion)
 
 - <span style="color:red">2048 **(sound effects to be completed)**</span>
 ---
+
 ## Setup Progress
+
 ### Video Setup
+
 ```mermaid
 graph TD
 
@@ -44,6 +47,7 @@ J--> K[Projector 2]
 ```
 
 ### Audio Setup
+
 ```mermaid
 graph TD
 
@@ -56,7 +60,9 @@ B--> H[Active Speaker 4]
 ```
 
 ### Control Setup
+
 #### Projector Control
+
 ```mermaid
 graph TD
 
@@ -66,7 +72,9 @@ B--> D[Projector 1]
 B--> E[Projector 2]
 
 ```
+
 #### Arudino Control
+
 ```mermaid
 graph TD
 
@@ -82,11 +90,12 @@ D--> J[Button - Right Key]
 
 ```
 
-
 ---
+
 ## Installation phase
 
 ### Video Installation
+
 1) In our setup, we have 2 projectors setup(1 for table, 1 for the projection screen)
 
 ![Alt text](images314Github/-6339063505319213120_121.jpg)
@@ -142,9 +151,8 @@ D--> J[Button - Right Key]
 
 ![Alt text](images314Github/SGCAM_20230606_165119660.jpg)
 
-
-
 ### Audio Installation
+
 1) In our setup, we are using 4 active speakers. These speakers are placed below the table.
 
 2) As active speakers require power to be used, we will be plugging in IEC to 13A plug to a power strip.
@@ -174,6 +182,7 @@ D--> J[Button - Right Key]
 
 
 ### Arduino Leonardo
+
 <br>
 
 ![Alt text](ArduinoImg/Arduino1.jpeg)
@@ -195,6 +204,7 @@ D--> J[Button - Right Key]
 ## Operational Phase
 
 ### PB Management
+
 1) Download PB management application. Note that you would need to obtain a license to use the software. 
 
 2) In the PB management workspace, wait for the server icon to turn **blue** and its state to say **online** 
@@ -212,16 +222,16 @@ D--> J[Button - Right Key]
 
    ![Alt text](PBImg/icon3.png)
 
-
 ### Aver Media Capture Card
+
 1) In our setup, we are using a **Capture Card** to live stream our game through **Christie Pandora Box**.
 
 2) We are using the LGX Aver Media Capture Card.
 
 3) For this Capture Card, you would need to install the LGX Livestream CaptureCard drive in your laptop in order for the CaptureCard to communicate with the laptop and the media server.
 
-
 ### Christie Pandora Box
+
 1) To use Christie pandora box, you would need to download both the Christie pandora box and PB management application. You would also need to obtain a license(Dongle) to use the software. 
 
 2) If all requirements have been fulfilled, you may procced to plug in the dongle that contains the license to use the application into either the laptop if running on local, or a media server if u have one. Ensure that the IP address of the laptop is the same as the PB management too.
@@ -232,66 +242,92 @@ D--> J[Button - Right Key]
 
 5) In the capture card tab, find and click on **StreamiX live input**. In **StreamiX live input**, find the input with the name of the capture card that you are using and drag the input into a layer in the timeline.
 
-6)  As this software is a projection software, we can also add something called **editable mesh**, to help us size and fit our content depending on our display area. Right click on your project folder and click on **Add Editable Mesh**. You may rename the mesh to your liking.
-
+6) As this software is a projection software, we can also add something called **editable mesh**, to help us size and fit our content depending on our display area. Right click on your project folder and click on **Add Editable Mesh**. You may rename the mesh to your liking.
 
 ---
+
 ### Unity Hub
 
-1) *Install Unity Hub from their official site. Here is the link to download Unity Hub into your devices. Select either Windows or Mac.**[Depending on your devices]***
-<a href>https://unity.com/download</a>
+1) Install Unity Hub from their official site. Here is the link to download Unity Hub into your devices. Select either Windows or Mac.**[Depending on your devices]**
 
-2) *Install the Latest version of Unity for the best features*
+<https://unity.com/download>
 
-3) *After downloading and installing Unity Hub into your device, boot it up* 
+2) Install the Latest version of Unity for the best features
 
-4)  *After opening Unity Hub, you should see this screen below.*
-![Alt text](UnityHub/accountunity.jpg)
+3) After downloading and installing Unity Hub into your device, boot it up
 
-5) *Sign in if you already have an account before. If not, Create account*
-![Alt text](UnityHub/SigninUnity.jpg)
+4) After opening Unity Hub, you should see this screen below.
 
-![Alt text](UnityHub/createUnity.jpg)
+   ![Alt text](UnityHub/accountunity.jpg)
 
-6) *After you create an account and signed in, you will see this screen*
-![Alt text](UnityHub/menuscreen.jpg)
+5) Sign in if you already have an account before. If not, Create account
 
-7) *Click **New Project** to create new project and pick 3D option. Rename the project to your liking*
-![Alt text](UnityHub/newprojunity.jpg)
+   ![Alt text](UnityHub/SigninUnity.jpg)
 
-![Alt text](UnityHub/optionsunity.jpg)
+<br>
 
-![Alt text](UnityHub/3Doption.jpg)
+   ![Alt text](UnityHub/createUnity.jpg)
 
-![Alt text](UnityHub/gamecreationunity.jpg)
-8) *After opening a new project, you can now go to your folder, and unzip the game folder. You should be able to see the game open up, ready to be played.*
-![Alt text](UnityHub/connect4screen.jpg)
+6) After you create an account and signed in, you will see this screen
 
-9) *Once those are done, click file and select **Build Settings***
-![Alt text](UnityHub/connect4file.jpg)
+   ![Alt text](UnityHub/menuscreen.jpg)
 
-10) *Remove the preview of the sample scene so that you can only see the game itself after **build and run** the game*
-![Alt text](UnityHub/buildsetting.jpg)
+7) Click **New Project** to create new project and pick 3D option. Rename the project to your liking
 
-![Alt text](UnityHub/Buildnrun.jpg)
+   ![Alt text](UnityHub/newprojunity.jpg)
+
+<br>
+
+   ![Alt text](UnityHub/optionsunity.jpg)
+
+<br>
+
+   ![Alt text](UnityHub/3Doption.jpg)
+
+<br>
+
+   ![Alt text](UnityHub/gamecreationunity.jpg)
+
+<br>
+
+8) After opening a new project, you can now go to your folder, and unzip the game folder. You should be able to see the game open up, ready to be played.
+
+   ![Alt text](UnityHub/connect4screen.jpg)
+
+9) Once those are done, click file and select **Build Settings**
+
+   ![Alt text](UnityHub/connect4file.jpg)
+
+10) Remove the preview of the sample scene so that you can only see the game itself after **build and run** the game
+
+   ![Alt text](UnityHub/buildsetting.jpg)
+
+<br>
+
+   ![Alt text](UnityHub/Buildnrun.jpg)
 
 ---
+
 ### Audio Software Installation
 
 1) To use the Steinberg UR44, you would be required to download the specific driver from their website
 
 2) To download the driver, click on this link below:
-<a href>https://o.steinberg.net/en/support/downloads_hardware/downloads_ur44.html</a>
 
-![Alt text](images314Github/UR44%20-1.png)
+<https://o.steinberg.net/en/support/downloads_hardware/downloads_ur44.html>
+
+<br>
+
+   ![Alt text](images314Github/UR44%20-1.png)
 
 3) In the webpage, find "Tools for UR44"
 
 4) Under that tab, find for "Tools for UR44 V2.2.2" for Window users or "Tools for UR44 V2.3.0" for MAC Users and click to download
 
-
 ### Arduino Leonardo
+
 #### Download Arduino Sofware
+
 1) To start on the Arduino, search in Google for Arduino IDE
 
 2) Click on Download and Install Arduino IDE
@@ -303,6 +339,7 @@ D--> J[Button - Right Key]
 4) You can now start programming your Arduino!
 
 #### Arduino mouse and keyboard controls
+
 1) In your Arduino Leonardo, start by downloading the **mouse and keyboard library**
 
 2) To start off the code, we sourced for codes from the Arduino website as well as other webpages too. 
@@ -322,12 +359,12 @@ D--> J[Button - Right Key]
 ## Testing Phase
 
 #### Connect 4
+
 * Its a 2 player game.
 * Players are given a controller to play the game.
 * To play, players would be required to click in any of the columns in the provided grid to drop their coloured discs.
 
 <https://github.com/AbbieNgXinYi/Gamenian/blob/main/Connect4img/takeTurns.mp4>
-
 
 * To win the game, the first player that gets 4 in a row, vertically, horizontally or diagonally, wins the game.
 ---
