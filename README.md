@@ -272,9 +272,31 @@ D--> J[Button - Right Key]
 
    ![Alt text](UnityHub/menuscreen.jpg)
 
+
 7) Click **New Project** to create new project and pick 3D option. Rename the project to your liking
 
-   ![Alt text](UnityHub/newprojunity.jpg)
+   ![Alt text](UnityHub/filedown.jpg)
+
+<br>
+
+   ![Alt text](UnityHub/filedownbuildsetting.jpg)
+
+8) Remove the preview of the sample scene so that you can only see the game itself after **build and run** the game. If not, you see a **blue screen** after runnning the game*
+
+      * Below are some of the screenshots of when you did not remove preview on sample scene
+
+         ![Alt text](UnityHub/with%20sample.jpg)
+
+         * you will be given a blue screen instead of the game screen
+            ![Alt text](UnityHub/bluescreen.jpg)
+
+      * Below are some screen shots where you remove the sample scene
+      
+         ![Alt text](UnityHub/buildsetting.jpg)
+
+      <br>
+
+         ![Alt text](UnityHub/newprojunity.jpg)
 
 <br>
 
@@ -290,21 +312,25 @@ D--> J[Button - Right Key]
 
 <br>
 
-8) After opening a new project, you can now go to your folder, and unzip the game folder. You should be able to see the game open up, ready to be played.
+9) After opening a new project, you can now go to your folder, and unzip the game folder. You should be able to see the game open up, ready to be played.
 
    ![Alt text](UnityHub/connect4screen.jpg)
 
-9) Once those are done, click file and select **Build Settings**
+10) Once those are done, click file and select **Build Settings**
 
    ![Alt text](UnityHub/connect4file.jpg)
 
-10) Remove the preview of the sample scene so that you can only see the game itself after **build and run** the game
+11) Remove the preview of the sample scene so that you can only see the game itself after **build and run** the game
 
    ![Alt text](UnityHub/buildsetting.jpg)
 
 <br>
 
    ![Alt text](UnityHub/Buildnrun.jpg)
+
+12) you should see this screen instead of blue screen
+
+   ![Alt text](Connect4img/win1.jpeg)
 
 ---
 
@@ -387,15 +413,16 @@ D--> J[Button - Right Key]
 
 ---
 
-
 ### Troubleshooting:
 
 #### What if the video is unable to livefeed onto the projector?
+
 * Check the cabling from the CaptureCard to the media server. Change the cable if need to.
 * Check the driver of the CaptureCard to see if they are communicating with each other. If they are not able to communicate, reinstall the driver.
 * If its neither of them, check the pandora box, ensure that the layer that you are projecting out is visible(not hidden).
 
 #### Aver Media Capture Card
+
 * Check if the Capture Card LED if lit Blue
 
 * If not lit blue but red:
@@ -406,6 +433,7 @@ D--> J[Button - Right Key]
       - Not using media servr, USB plug to Laptop
 
 #### PB Management 
+
 * If you press **X** on the client interface and when you press Pandora Box and it says it is open when you have closed it:
     1) Find **Taskbar** and switch it on
     2) Now, you should be able to see the taskbar in your PB Menu page
@@ -414,6 +442,7 @@ D--> J[Button - Right Key]
 * Ensure that the IP address of the laptop is the same as the PB management too.
 
 #### Christie Pandora Box
+
 * Make sure that dongle is plugged in either in the server or laptop
 
 * If the projector has been switched on and off, and content is not displayed:
@@ -435,6 +464,7 @@ D--> J[Button - Right Key]
 
 
 #### Arduino
+
 * Check the IDE software if its affecting the arduino 
 
 * If unable to download code due to software:
