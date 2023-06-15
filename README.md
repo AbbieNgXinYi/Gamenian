@@ -29,6 +29,12 @@
 
 ## Project Information
 
+### Background
+
+With housing in Singapore being smaller and increasing more expensive recently, many are looking for ways to save space and make things more compact.
+
+With our project, we aim to help tackle some of these issues and add value to existing furnishings that people already have.
+
 ### Objective
 
 **To give existing furniture more features:**
@@ -37,10 +43,17 @@
 * Diverse usage of the same furniture
 * Help to save space
 
+### Unique Features
+
+* Players are able to concentrate on the game that is one the table while the audience can enjoy 
+  spectating the game by watching the gameplay on the second output(wall)
+
+* Setup compacts features into the area of the table which helps to save space especially in newer, smaller houses
+
 
 ## Types of Coding Language(s)
 
-- C#
+* C#
 
 ---
 
@@ -74,49 +87,17 @@ Game effects(80% Completion)
 
 ### Video Setup
 
-```mermaid
-graph TD
-
-A[Laptop]--> B[Aver Media Capture Card]
-A--> C[HP Media Server]
-C--> D[DP to HDMI adapter]
-D--> E[Kramer PT-572+]
-E--> F[Kramer PT-571]
-F--> G[Projector 1]
-C--> H[DP to HDMI adapter]
-H--> I[Kramer PT-572+]
-I--> J[Kramer PT-571]
-J--> K[Projector 2]
-
-
-```
+![Alt text](SystemDiagram/Video.png)
 
 ### Audio Setup
 
-```mermaid
-graph TD
-
-A[Laptop]--> B[Steinberg UR44]
-B--> E[Active Speaker 1]
-B--> F[Active Speaker 2]
-B--> G[Active Speaker 3]
-B--> H[Active Speaker 4]
-
-```
+![Alt text](SystemDiagram/Audio.jpg)
 
 ### Control Setup
 
 #### Projector Control
 
-```mermaid
-graph TD
-
-A[Laptop]--> B[Network Switch]
-B--> C[Crestron Processor - CP3]
-B--> D[Projector 1]
-B--> E[Projector 2]
-
-```
+![Alt text](SystemDiagram/ProjectorControl.png)
 
 #### Arudino Control
 
@@ -162,9 +143,11 @@ C[Router] --> D[192.168.77.7]
 
 ![Alt text](floor&cablingplan/floor4.jpeg)
 
+
 ### Cabling Layout
 
 ![Alt text](rack&cablinglayout/cable.png)
+
 
 ### Rack layout
 
@@ -441,7 +424,7 @@ C[Router] --> D[192.168.77.7]
 
 5) We then combined the codes together and tested them out to see if the codes would conflict with one another.
 
-6) Our codes can be found in **Arduino Codes** folder.
+6) Our codes can be found in the **Arduino Codes** folder.
 
 * To take note: **Remember to always include the relevant library or the code will not work**
 
@@ -487,6 +470,13 @@ C[Router] --> D[192.168.77.7]
 
 ### Joystick and Button Demo
 
+* This is a demostration of our controls. 
+
+<https://github.com/AbbieNgXinYi/Gamenian/blob/main/Controldemo/ControlDemo.mp4>
+
+1)The joystick is our mouse control.
+2)The red button is the mouse button.
+3)The other 4 buttons in yellow or white are the **Up, Down, Left, Right** keys in our keyboard control.
 
 
 ### Troubleshooting
