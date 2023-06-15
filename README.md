@@ -244,9 +244,9 @@ C[Router] --> D[192.168.77.7]
 
 <br>
 
-1) To use the Arduino Leonardo, connect it via USB-A to Micro USB to the Laptop.
+1) To use the Arduino Leonardo, first connect it via USB-A to Micro USB to the Laptop.
 
-2) We have used a passive USB extender due to the location of where the Laptop and Arduino is placed.
+2) For our setup, we have used a passive USB extender due to the location of where the Laptop and Arduino is placed.
 
 3) In our set up, we have connected one joystick and 5 buttons to the Arduino using 3 core cables and jumper wires.
 
