@@ -167,14 +167,8 @@ C[Router] --> D[192.168.77.7]
 ![Alt text](rack&cablinglayout/cable.png)
 
 ### Rack layout
-* This is our rack layout. The media server is placed at the bottom with the amplifier.
 
 ![Alt text](rack&cablinglayout/rack.png)
-
-* Followed by the Live Avermedia Capture Card on the second layer
-
-* The laptop is placed at the topmost of the layer.
-
 
 ---
 
