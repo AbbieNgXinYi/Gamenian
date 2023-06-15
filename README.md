@@ -146,9 +146,21 @@ C[Router] --> D[192.168.77.7]
 
 ```
 
+### Floor & Cabling Plan
 
-### Floor Plan
+![Alt text](floor&cablingplan/floor1.jpeg)
 
+<br>
+
+![Alt text](floor&cablingplan/floor2.jpeg)
+
+<br>
+
+![Alt text](floor&cablingplan/floor3.jpeg)
+
+<br>
+
+![Alt text](floor&cablingplan/floor4.jpeg)
 
 
 ### Cabling Layout
