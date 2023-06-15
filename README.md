@@ -475,9 +475,9 @@ C[Router] --> D[192.168.77.7]
 
 <https://github.com/AbbieNgXinYi/Gamenian/blob/main/Controldemo/ControlDemo.mp4>
 
-1)The joystick is our mouse control.
-2)The red button is the mouse button.
-3)The other 4 buttons in yellow or white are the **Up, Down, Left, Right** keys in our keyboard control.
+* The joystick is our mouse control.
+* The red button is the mouse button.
+* The other 4 buttons in yellow or white are the **Up, Down, Left, Right** keys in our keyboard control.
 
 
 ### Troubleshooting
