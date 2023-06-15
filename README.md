@@ -48,7 +48,8 @@ With our project, we aim to help tackle some of these issues and add value to ex
 * Players are able to concentrate on the game that is one the table while the audience can enjoy 
   spectating the game by watching the gameplay on the second output(wall)
 
-* Setup compacts features into the area of the table which helps to save space especially in newer, smaller houses
+* Setup compacts features into the area of the table which helps to save space especially in newer, smaller houses. 
+   It also adds value to the furniture as the same piece of furniture can have more uses
 
 
 ## Types of Coding Language(s)
