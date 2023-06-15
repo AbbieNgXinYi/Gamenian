@@ -68,6 +68,10 @@ Game effects(80% Completion)
 
 ## Setup Progress
 
+### Bill Of Materials
+
+![Alt text](BOM/BOM314.png)
+
 ### Video Setup
 
 ```mermaid
@@ -201,7 +205,17 @@ C[Router] --> D[192.168.77.7]
 
 8) In order to use christie pandora box, we require a dongle(License to use pandora box) for the media server and the laptop.
 
+
+**Media Server**
+
 ![Alt text](images314Github/SGCAM_20230606_165119660.jpg)
+
+<br>
+
+**Laptop**
+
+![Alt text](images314Github/MSD.jpg)
+
 
 ### Audio Installation
 
@@ -411,6 +425,8 @@ C[Router] --> D[192.168.77.7]
 4) We then tested out the keyboard control code to check if the buttons that we want to use is synced with the Arduino buttons.
 
 5) We then combined the codes together and tested them out to see if the codes would conflict with one another.
+
+6) Our codes can be found in **Arduino Codes** folder.
 
 * To take note: **Remember to always include the relevant library or the code will not work**
 
