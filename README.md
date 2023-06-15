@@ -162,16 +162,13 @@ C[Router] --> D[192.168.77.7]
 
 ![Alt text](floor&cablingplan/floor4.jpeg)
 
-
 ### Cabling Layout
 
-
-
+![Alt text](rack&cablinglayout/cable.png)
 
 ### Rack layout
 
-
-
+![Alt text](rack&cablinglayout/rack.png)
 
 ---
 
@@ -267,11 +264,17 @@ C[Router] --> D[192.168.77.7]
 
 2) We have used a passive USB extender due to the location of where our Laptop and Arduino is placed.
 
-3) In our set up, we have connected one joystick and 5 buttons to our Arduino.
+3) In our set up, we have connected one joystick and 5 buttons to our Arduino using 3 core cables and jumper wires.
 
 <br>
 
+**Arduino Setup**
+
 ![Alt text](ArduinoImg/Arduino2.jpeg)
+
+**Joystick and Button Setup**
+
+![Alt text](ArduinoImg/J%26B1.jpeg)
 
 ---
 
@@ -405,7 +408,7 @@ C[Router] --> D[192.168.77.7]
 
 <br>
 
-   ![Alt text](images314Github/UR44%20-1.png)
+![Alt text](images314Github/UR44%20-1.png)
 
 3) In the webpage, find "Tools for UR44"
 
@@ -449,7 +452,7 @@ C[Router] --> D[192.168.77.7]
 
 ## Testing Phase
 
-#### Connect 4
+### Connect 4 (Game Demo)
 
 * Its a 2 player game.
 * Players are given a controller to play the game.
@@ -481,6 +484,10 @@ C[Router] --> D[192.168.77.7]
 ![Alt text](Connect4img/quitBTN.png)
 
 ---
+
+### Joystick and Button Demo
+
+
 
 ### Troubleshooting
 
