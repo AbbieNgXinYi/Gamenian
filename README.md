@@ -469,6 +469,45 @@ C[Router] --> D[192.168.77.7]
 
 ---
 
+### 2048 (2nd game demo)
+
+* It's a single player game
+* It is played on a 4x4 grid
+* Players are given a controller to move the tiles **( up, down, left, right)**
+* To play, the player must combine tiles containing the same numbers until they reach the number **2048**.
+
+---
+![Alt text](/2048img/2048bootup.jpg)
+
+---
+
+* The tiles contain only integer values starting from 2 and that are a power of 2 ( like 2,4,8,16,32, etc)
+* Players will start with 2tiles, the lowest possible number available is 2.
+* The game will end if players are able to reach 2048 **OR** ran out of tiles to move. 
+* While the game technically ends when players hit 2048, the game will let you continue past it
+
+* To restart the game, click **"New Game"**
+---
+![Alt text](/2048img/2048restart.jpg)
+
+---
+* This is your current score of the current game
+---
+![Alt text](/2048img/2048personalscore.jpg)
+
+---
+* This is the high score/best score that you had achieve the previous game
+---
+![Alt text](/2048img/2048highscore.jpg)
+
+---
+* To quit the game, click **"Quit"**
+
+---
+![Alt text](/2048img/2048quit.jpg)
+
+---
+
 ### Joystick and Button Demo
 
 * This is a demostration of our controls. 
