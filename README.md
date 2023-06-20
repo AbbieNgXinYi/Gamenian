@@ -484,6 +484,10 @@ C[Router] --> D[192.168.77.7]
 * The tiles contain only integer values starting from 2 and that are a power of 2 ( like 2,4,8,16,32, etc)
 * Players will start with 2tiles, the lowest possible number available is 2.
 * The game will end if players are able to reach 2048 **OR** ran out of tiles to move. 
+---
+![Alt text](/2048img/2048gameover.jpg)
+
+---
 * While the game technically ends when players hit 2048, the game will let you continue past it
 
 * To restart the game, click **"New Game"**
