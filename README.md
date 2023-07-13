@@ -512,6 +512,44 @@ C[Router] --> D[192.168.77.7]
 
 ---
 
+### Ping Pong Game (3rd game demo)
+
+* It's a two-player game
+* The goal of the game is to make your opponent miss the ball, and when it hits their side of the wall, you score a point. Whereas if the ball hits your side of the wall, the opponent scores a point.
+* You need to obtain 3 points in total to win the game.
+* You can only move **Up or Down**, NEVER side-ways. Only the *Ball* can move side-ways or even diagonally.
+* With the keyboard controls of ( W  , S ) for Player1 while the other control for Player2 is ( Up , Down arrow keys), you can move individual paddle to hit the ball.
+
+![Alt text](/PongImages/PongGame.jp)
+
+* To quit the game, click **"Quit"**
+
+![Alt text](/PongImages/QuitGame.jp)
+
+---
+
+* This is individuals scores ( Both you and your opponents )
+
+![Alt text](/PongImages/ScorePlayer.jp)
+
+---
+
+* Once either side scores a total of 3, the Game over screen will appear
+
+![Alt text](/PongImages/GameOverScreen.jp)
+
+---
+
+* To replay the match again, click **"Replay"**
+
+![Alt text](/PongImages/Replay.jp)
+
+* If not, click **"Main Menu"** to go back to quit game, and back to main menu screen
+
+![Alt text](/PongImages/BackToMenu.jp)
+
+---
+
 ### Joystick and Button Demo
 
 * This is a demostration of our controls. 
