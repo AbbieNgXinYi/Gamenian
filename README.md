@@ -512,6 +512,15 @@ C[Router] --> D[192.168.77.7]
 
 ---
 
+### Ping Pong Game (3rd game demo)
+
+* It's a two-player game
+* The goal of the game is to make your opponent miss the ball, and when it hits their side of the wall, you score a point. Whereas if the ball hits your side of the wall, the opponent scores a point.
+* You need to obtain 3 points in total to win the game.
+* You can only move **Up or Down**, NEVER side-ways. Only the *Ball* can move side-ways or even diagonally.
+
+---
+
 ### Joystick and Button Demo
 
 * This is a demostration of our controls. 
