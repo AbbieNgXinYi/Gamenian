@@ -1,41 +1,16 @@
 # Gamenian
 
-## Team Information
-
-**Abbie(Leader)**
-
-* Arduino Programming - Joystick and Buttons Control
-* Joystick and Buttons Hardware Interfacing to Arduino
-* Unity Code editing, Arduino Communication
-* PB Meshing - Table and Screen Projection
-
-**Sean(Assistant Leader)**
-
-* Arduino Programming - Joystick and Buttons Control
-* Joystick and Buttons Hardware Interfacing to Arduino
-* Unity Code editing, Arduino Communication
-* Video System setup
-
-**William(Member)**
-
-* Video System setup
-* Aduio System setup
-* Live Streaming setup for PB
-
-**Xin Yi(Member)**
-
-* PB Meshing - Table and Screen Projection
-* Unity Code GUI editing
-
 ## Project Information
 
-### Background
+### Background :
 
-With housing in Singapore being smaller and increasing more expensive recently, many are looking for ways to save space and make things more compact.
+With housing in Singapore being smaller and increasingly more expensive recently, many are looking for ways to save space and make things more compact.
 
 With our project, we aim to help tackle some of these issues and add value to existing furnishings that people already have.
 
-### Objective
+---
+
+### Our Objective :
 
 **To give existing furniture more features:**
 
@@ -43,7 +18,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 * Diverse usage of the same furniture
 * Help to save space
 
-### Unique Features
+### Unique Features :
 
 * Players are able to concentrate on the game that is one the table while the audience can enjoy 
   spectating the game by watching the gameplay on the second output(wall)
@@ -51,6 +26,65 @@ With our project, we aim to help tackle some of these issues and add value to ex
 * Setup compacts features into the area of the table which helps to save space especially in newer, smaller houses. 
    It also adds value to the furniture as the same piece of furniture can have more uses
 
+## Table of Content :
+
+- Game codes
+   - Coding language(s) used to code games
+
+- Game Development
+   - Two-Player Games
+   - Single-Player Games
+
+- Setup Progress
+   - Bill Of Materials (BOM)
+   - Video Setup
+   - Audio Setup
+   - Control Setup
+      - Projector Setup
+      - Aruduino Setup
+
+- Network Settings
+
+- Floor and Cabling Plan
+   - Layout
+      - Cabling Layout
+      - Rack Layout
+
+- Installation Phase
+   - Video Installation
+      - Media Server
+      - Laptop
+   - Audio installation
+      - Audio Software 
+   - Arduino Leonardo
+      - Arduino Setup
+      - Arduino Software
+         - Arduino mouse and keyboard controls
+   - Joystick and Buttons Setup
+
+- Operational Phase
+   - PB Management
+   - Aver Media Capture Card
+   - Christie Pandora Box
+   - Unity Hub
+      - Starting Unity hub
+      - build your Game
+
+- Testing Phase (With Instructions and Demo)
+   - Connect 4
+   - 2048 
+   - Ping Pong
+   - Joystick and Button Demo
+
+- Troubleshooting
+   - What if the video is unable to livefeed onto the projector?
+   - Aver Media Capture Card
+   - PB Management
+   - Christie Pandora Box
+   - Arduino
+   - Unity Hub
+
+- Team's Infomation
 
 ## Types of Coding Language(s)
 
@@ -60,17 +94,17 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 ## Game Development
 
-### Two Player Game Code
+### Two Player Game:
 
 Game Development With SFX (Completion 100%)
 * Connect 4 
 * Ping Pong Game
 
-### Single Player Game Code
+### Single Player Game:
 
 Game Development With SFX (Completion 100%)
 
-* <span style="color:red">2048 </span>
+* 2048
 
 ---
 
@@ -230,6 +264,22 @@ C[Router] --> D[192.168.77.7]
 
 ![Alt text](images314Github/SGCAM_20230606_164005111.jpg)
 
+### Audio Software Installation
+
+1) To use the Steinberg UR44, you would be required to download the specific driver from their website
+
+2) To download the driver, click on this link below:
+
+<https://o.steinberg.net/en/support/downloads_hardware/downloads_ur44.html>
+
+<br>
+
+![Alt text](images314Github/UR44%20-1.png)
+
+3) In the webpage, find "Tools for UR44"
+
+4) Under that tab, find for "Tools for UR44 V2.2.2" for Window users or "Tools for UR44 V2.3.0" for MAC Users and click to download
+
 ### Arduino Leonardo
 
 <br>
@@ -249,6 +299,40 @@ C[Router] --> D[192.168.77.7]
 **Arduino Setup**
 
 ![Alt text](ArduinoImg/Arduino2.jpeg)
+
+#### Download Arduino Sofware
+
+1) To start on the Arduino, search in Google for Arduino IDE
+
+2) Click on Download and Install Arduino IDE
+
+<https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE>
+
+3) In the webpage under Installation Instructions, download the relevant IDE depending on the OS system you are using
+
+4) You can now start programming your Arduino!
+
+#### Arduino mouse and keyboard controls
+
+1) In your Arduino Leonardo, start by searching and downloading the **mouse and keyboard library**
+
+2) To start off the code, we sourced for codes from the Arduino website as well as other webpages too.
+   We then edited the code depending on what we have connected to our Arduino.
+
+3) First, we tested out the mouse control as well as the mouse click codes.
+
+4) We then tested out the keyboard control code to check if the buttons that we want to use is synced with the Arduino buttons.
+
+5) We then combined the codes together and tested them out to see if the codes would conflict with one another.
+
+6) Our codes can be found in the **Arduino Codes** folder.
+
+* To take note: **Remember to always include the relevant library or the code will not work**
+
+   ```
+   #include "Keyboard.h"
+   #include "Mouse.h"
+   ```
 
 **Joystick and Button Setup**
 
@@ -375,58 +459,6 @@ C[Router] --> D[192.168.77.7]
    ![Alt text](UnityHub/buildscene.png)
 
 ---
-
-### Audio Software Installation
-
-1) To use the Steinberg UR44, you would be required to download the specific driver from their website
-
-2) To download the driver, click on this link below:
-
-<https://o.steinberg.net/en/support/downloads_hardware/downloads_ur44.html>
-
-<br>
-
-![Alt text](images314Github/UR44%20-1.png)
-
-3) In the webpage, find "Tools for UR44"
-
-4) Under that tab, find for "Tools for UR44 V2.2.2" for Window users or "Tools for UR44 V2.3.0" for MAC Users and click to download
-
-### Arduino Leonardo
-
-#### Download Arduino Sofware
-
-1) To start on the Arduino, search in Google for Arduino IDE
-
-2) Click on Download and Install Arduino IDE
-
-<https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE>
-
-3) In the webpage under Installation Instructions, download the relevant IDE depending on the OS system you are using
-
-4) You can now start programming your Arduino!
-
-#### Arduino mouse and keyboard controls
-
-1) In your Arduino Leonardo, start by searching and downloading the **mouse and keyboard library**
-
-2) To start off the code, we sourced for codes from the Arduino website as well as other webpages too.
-   We then edited the code depending on what we have connected to our Arduino.
-
-3) First, we tested out the mouse control as well as the mouse click codes.
-
-4) We then tested out the keyboard control code to check if the buttons that we want to use is synced with the Arduino buttons.
-
-5) We then combined the codes together and tested them out to see if the codes would conflict with one another.
-
-6) Our codes can be found in the **Arduino Codes** folder.
-
-* To take note: **Remember to always include the relevant library or the code will not work**
-
-   ```
-   #include "Keyboard.h"
-   #include "Mouse.h"
-   ```
 
 ## Testing Phase
 
@@ -638,3 +670,34 @@ C[Router] --> D[192.168.77.7]
 * If you uncheck the box, you will be given a blue screen instead of the game interface
 
    ![Alt text](UnityHub/bluescreen.jpg)
+
+---
+
+## Team's Information
+### These are the Team Members that worked together to make a functioning project:
+
+
+**Abbie(Leader)**
+
+* Arduino Programming - Joystick and Buttons Control
+* Joystick and Buttons Hardware Interfacing to Arduino
+* Unity Code editing, Arduino Communication
+* PB Meshing - Table and Screen Projection
+
+**Sean(Assistant Leader)**
+
+* Arduino Programming - Joystick and Buttons Control
+* Joystick and Buttons Hardware Interfacing to Arduino
+* Unity Code editing, Arduino Communication
+* Video System setup
+
+**William(Member)**
+
+* Video System setup
+* Aduio System setup
+* Live Streaming setup for PB
+
+**Xin Yi(Member)**
+
+* PB Meshing - Table and Screen Projection
+* Unity Code GUI editing
