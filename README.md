@@ -28,29 +28,29 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 ## Table of Content :
 
-- Game codes
+- **Game codes**
    - Coding language(s) used to code games
 
-- Game Development
+- **Game Development**
    - Two-Player Games
    - Single-Player Games
 
-- Setup Progress
+- **Setup Progress**
    - Bill Of Materials (BOM)
    - Video Setup
    - Audio Setup
    - Control Setup
       - Projector Setup
-      - Aruduino Setup
+      - Arduino Setup
 
-- Network Settings
+- **Network Settings**
 
-- Floor and Cabling Plan
+- **Floor and Cabling Plan**
    - Layout
       - Cabling Layout
       - Rack Layout
 
-- Installation Phase
+- **Installation Phase**
    - Video Installation
       - Media Server
       - Laptop
@@ -62,7 +62,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
          - Arduino mouse and keyboard controls
    - Joystick and Buttons Setup
 
-- Operational Phase
+- **Operational Phase**
    - PB Management
    - Aver Media Capture Card
    - Christie Pandora Box
@@ -70,13 +70,13 @@ With our project, we aim to help tackle some of these issues and add value to ex
       - Starting Unity hub
       - build your Game
 
-- Testing Phase (With Instructions and Demo)
+- **Testing Phase (With Instructions and Demo)**
    - Connect 4
    - 2048 
    - Ping Pong
    - Joystick and Button Demo
 
-- Troubleshooting
+- **Troubleshooting**
    - What if the video is unable to livefeed onto the projector?
    - Aver Media Capture Card
    - PB Management
@@ -84,7 +84,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
    - Arduino
    - Unity Hub
 
-- Team's Infomation
+- **Team's Infomation**
 
 ## Types of Coding Language(s)
 
