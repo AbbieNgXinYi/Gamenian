@@ -186,6 +186,26 @@ C[Router] --> D[192.168.77.7]
 
 ## Installation phase
 
+### Lighting Installation
+1) In this setup, we use LED Strips to hang up on top of of the metal truss to light up the area.
+
+![Alt text](images314Github/20230720_161215.jpg)
+![Alt text](images314Github/20230720_161154.jpg)
+
+2)The LED Strips was connected using FlexOled LEDJ FTP3 driver. This driver have to set to the correct DMX address by pushing up the correct slider (Eg if the DMX address is 451 switch the slider 1,2,7, 8, and 9 to the ON position)
+
+![Alt text](images314Github/SGCAM_20230510_161238932.jpg)
+
+3) The LED Driver was connected to the grandMA3 onPC 2K node via the DMX to terminal block cable. The grandMA3 onPC software is required to control and set the lighting cues and the effects for the LED Strips.
+
+![Alt text](images314Github/20230720_161701.jpg)
+![Alt text](images314Github/20230720_161629.jpg)
+![Alt text](images314Github/20230720_161440.jpg)
+
+
+4)The grandMA3 software can be downloaded in the website via this link 
+:https://www.malighting.com/downloads/products/grandma3/
+
 ### Video Installation
 
 1) In our setup, we have 2 projectors setup(1 for table, 1 for the projection screen)
