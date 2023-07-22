@@ -12,9 +12,11 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 ## Table of Content :
 
-- **[Team's Information](Team's-Information)**
+- **[Team Information](Team-Information)**
 
 - **[Our Objective](#Our-Objective)**
+
+- **[Unique Features](#Unique-Features)**
 
 - **[Game codes](#Game-codes)**
    - Coding language(s) used to code games
@@ -73,7 +75,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
    - Unity Hub
 
 
-### Our Objective :
+## Our Objective
 
 **To give existing furniture more features:**
 
@@ -81,7 +83,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 * Diverse usage of the same furniture
 * Help to save space
 
-### Unique Features :
+## Unique Features
 
 * Players are able to concentrate on the game that is one the table while the audience can enjoy 
   spectating the game by watching the gameplay on the second output(wall)
@@ -90,7 +92,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
    It also adds value to the furniture as the same piece of furniture can have more uses
 
 
-## Team's Information
+## Team Information
 ### These are the Team Members that worked together to make a functioning project:
 
 **Abbie(Leader)**
