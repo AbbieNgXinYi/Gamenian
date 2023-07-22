@@ -97,29 +97,54 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 **Abbie(Leader)**
 
-* Arduino Programming - Joystick and Buttons Control
-* Joystick and Buttons Hardware Interfacing to Arduino
-* Unity Code editing, Arduino Communication
-* PB Meshing - Table and Screen Projection
+* POC Phase
+   + Arduino Programming - Joystick and Buttons Control
+   + Joystick and Buttons Hardware Interfacing to Arduino
+   + Unity Code editing, Arduino Communication
+   + PB Meshing - Table and Screen Projection
+
+* MVP Phase
+   + Communication between Joystick & Laptop - 2 players setup  
+   + Audio system setup - DSP + ceiling speakers
+   + Audio DSP Configuration
+   + Control System setup
+   + Control system - Audio DSP & Projector control 
 
 **Sean(Assistant Leader)**
 
-* Arduino Programming - Joystick and Buttons Control
-* Joystick and Buttons Hardware Interfacing to Arduino
-* Unity Code editing, Arduino Communication
-* Video System setup
+* POC Phase
+   + Arduino Programming - Joystick and Buttons Control
+   + Joystick and Buttons Hardware Interfacing to Arduino
+   + Unity Code editing, Arduino Communication
+   + Video System setup
+
+* MVP Phase
+   + Communication between Joystick & Laptop - 2 players setup
+   + Audio system setup - DSP + ceiling speakers
+   + Control System setup
+
 
 **William(Member)**
 
-* Video System setup
-* Aduio System setup
-* Live Streaming setup for PB
+* POC Phase
+   + Video System setup
+   + Aduio System setup
+   + Live Streaming setup for PB
+
+* MVP Phase
+   + Lighting System Setup
+   + Lighting System Programming, Cue-ing
 
 **Xin Yi(Member)**
 
-* PB Meshing - Table and Screen Projection
-* Unity Code GUI editing
+* POC Phase
+   + PB Meshing - Table and Screen Projection
+   + Unity Code GUI editing
 
+* MVP Phase
+   + Unity code - incorporate new game (Ping Pong) to replace Air Hockey 
+   + Incorporate Main Menu 
+   + Game instructions - asset creation
 
 ## Types of Coding Language(s)
 
@@ -155,7 +180,7 @@ Game Development With SFX (Completion 100%)
 
 ### Audio Setup
 
-![Alt text](SystemDiagram/Audio.jpg)
+![Alt text](SystemDiagram/314-e-schematic-a.png)
 
 ### Control Setup
 
@@ -295,45 +320,12 @@ C[Router] --> D[192.168.77.7]
 
 ### Audio Installation
 
-1) In our setup, we are using 4 active speakers. These speakers are placed below the table.
+1) In our setup, we are using 2 ceiling speakers, 1 DMP 64 - audio DSP, and 1 XPA 1002 audio amplifier.
 
-2) As active speakers require power to be used, we will be plugging in IEC to 13A plug to a power strip.
+2) Firstly, connect the DMP 64 to the laptop via LAN. 
+   **(In our project, as we do not have enough LAN ports, we will be using a network switch.)**
 
-![Alt text](images314Github/SGCAM_20230606_143108737.jpg)
-
-4) To project sound out from the speakers from the laptop, we will be using the Steinberg UR44(Audio Interface).
-
-![Alt text](images314Github/SGCAM_20230606_142936732.jpg)
-
-5) The speakers are connected to the Steinberg UR 44 via TS 1/4 inch to XLR Cable.
-
-![Alt text](images314Github/SGCAM_20230606_163714794.jpg)
-
-6) The Steinberg UR44 is connected to the Laptop via USB-A to USB-B.
-
-7) All power strips, active speakers and the Steinberg UR44 power should all be switched on.
-     * The active speaker power button is located at the back of the speaker
-     * The Steinberg UR44 power button is loacted at the back of the audio interface
-
-8) To turn up the volume, simply slowly increase the laptop volume as well as make sure that the volume knob of the speakers are positioned in the 12 o'clock position.
-
-![Alt text](images314Github/SGCAM_20230606_164005111.jpg)
-
-### Audio Software Installation
-
-1) To use the Steinberg UR44, you would be required to download the specific driver from their website
-
-2) To download the driver, click on this link below:
-
-<https://o.steinberg.net/en/support/downloads_hardware/downloads_ur44.html>
-
-<br>
-
-![Alt text](images314Github/UR44%20-1.png)
-
-3) In the webpage, find "Tools for UR44"
-
-4) Under that tab, find for "Tools for UR44 V2.2.2" for Window users or "Tools for UR44 V2.3.0" for MAC Users and click to download
+3) Secondly, connect the DMP 64 outputs that will be used to the corresponding XPA 1002 inputs via speaker/mic/LAN cable.
 
 ### Arduino Leonardo
 
@@ -512,6 +504,35 @@ C[Router] --> D[192.168.77.7]
 4) Once your game is build, you should see your game interface if all settings are as followed.
 
    ![Alt text](UnityHub/buildscene.png)
+
+
+
+### Configuring Network of DMP 64
+
+**This step is to help you configure the DMP 64 if you are using your own network or also which to create your own controls through the extron DSP configurator:**
+
+1) Download the Extron DSP Configurator.
+
+2) Connect the DMP 64 to the laptop via mini USB.
+
+3) Open up the Extron DSP Configurator and choose the appropiate device. In our case, it would be DMP 64.
+
+4) Find the button which says **Live** and click on it.
+
+5) Next, choose the option where it says **Pull Data...** and click on **OK**
+
+6) Find the **Tools** Tab and find **Device Settings** and click it.
+
+7) Under **Connect to device...** find and click on the USB tab if not on that tab.
+
+8) Next, select the appropiate device and click **OK**.
+
+9) You will be directed to a page where you will be able to edit your IP Address. 
+
+10) Once you have edited your IP Address, click on **OK** and your good to go.
+
+
+### DMP 64 presets
 
 ---
 
