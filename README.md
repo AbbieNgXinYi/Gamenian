@@ -16,7 +16,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 - **[Unique Features](#Unique-Features)**
 
-- **[Team Information](Team-Information)**
+- **[Team Information](#Team-Information)**
 
 - **[Game codes](#Game-codes)**
    - Coding language(s) used to code games
