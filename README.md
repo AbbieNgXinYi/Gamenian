@@ -12,11 +12,11 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 ## Table of Content :
 
-- **[Team Information](Team-Information)**
-
 - **[Our Objective](#Our-Objective)**
 
 - **[Unique Features](#Unique-Features)**
+
+- **[Team Information](Team-Information)**
 
 - **[Game codes](#Game-codes)**
    - Coding language(s) used to code games
