@@ -10,6 +10,69 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 ---
 
+## Table of Content :
+
+- **[Team's Infomation](Team's-Infomation)**
+
+- **[Our Objective](#Our-Objective)**
+
+- **[Game codes](#Game-codes)**
+   - Coding language(s) used to code games
+
+- **[Game Development](#Game-Development)**
+   - Two-Player Games
+   - Single-Player Games
+
+- **[Setup Progress](#Setup-Progress)**
+   - Bill Of Materials (BOM)
+   - Video Setup
+   - Audio Setup
+   - Control Setup
+      - Projector Setup
+      - Arduino Setup
+
+- **[Network Settings](#Network-Settings)**
+
+- **[Floor and Cabling Plan](#Floor-and-Cabling-Plan)**
+   - Layout
+      - Cabling Layout
+      - Rack Layout
+
+- **[Installation Phase](#Installation-Phase)**
+   - Video Installation
+      - Media Server
+      - Laptop
+   - Audio installation
+      - Audio Software 
+   - Arduino Leonardo
+      - Arduino Setup
+      - Arduino Software
+         - Arduino mouse and keyboard controls
+   - Joystick and Buttons Setup
+
+- **[Operational Phase](#Operational-Phase)**
+   - PB Management
+   - Aver Media Capture Card
+   - Christie Pandora Box
+   - Unity Hub
+      - Starting Unity hub
+      - build your Game
+
+- **[Testing Phase](#Testing-Phase)(With Instructions and Demo)**
+   - Connect 4
+   - 2048 
+   - Ping Pong
+   - Joystick and Button Demo
+
+- **[Troubleshooting](#Troubleshooting)**
+   - What if the video is unable to livefeed onto the projector?
+   - Aver Media Capture Card
+   - PB Management
+   - Christie Pandora Box
+   - Arduino
+   - Unity Hub
+
+
 ### Our Objective :
 
 **To give existing furniture more features:**
@@ -26,65 +89,35 @@ With our project, we aim to help tackle some of these issues and add value to ex
 * Setup compacts features into the area of the table which helps to save space especially in newer, smaller houses. 
    It also adds value to the furniture as the same piece of furniture can have more uses
 
-## Table of Content :
 
-- **Game codes**
-   - Coding language(s) used to code games
+## Team's Information
+### These are the Team Members that worked together to make a functioning project:
 
-- **Game Development**
-   - Two-Player Games
-   - Single-Player Games
+**Abbie(Leader)**
 
-- **Setup Progress**
-   - Bill Of Materials (BOM)
-   - Video Setup
-   - Audio Setup
-   - Control Setup
-      - Projector Setup
-      - Arduino Setup
+* Arduino Programming - Joystick and Buttons Control
+* Joystick and Buttons Hardware Interfacing to Arduino
+* Unity Code editing, Arduino Communication
+* PB Meshing - Table and Screen Projection
 
-- **Network Settings**
+**Sean(Assistant Leader)**
 
-- **Floor and Cabling Plan**
-   - Layout
-      - Cabling Layout
-      - Rack Layout
+* Arduino Programming - Joystick and Buttons Control
+* Joystick and Buttons Hardware Interfacing to Arduino
+* Unity Code editing, Arduino Communication
+* Video System setup
 
-- **Installation Phase**
-   - Video Installation
-      - Media Server
-      - Laptop
-   - Audio installation
-      - Audio Software 
-   - Arduino Leonardo
-      - Arduino Setup
-      - Arduino Software
-         - Arduino mouse and keyboard controls
-   - Joystick and Buttons Setup
+**William(Member)**
 
-- **Operational Phase**
-   - PB Management
-   - Aver Media Capture Card
-   - Christie Pandora Box
-   - Unity Hub
-      - Starting Unity hub
-      - build your Game
+* Video System setup
+* Aduio System setup
+* Live Streaming setup for PB
 
-- **Testing Phase (With Instructions and Demo)**
-   - Connect 4
-   - 2048 
-   - Ping Pong
-   - Joystick and Button Demo
+**Xin Yi(Member)**
 
-- **Troubleshooting**
-   - What if the video is unable to livefeed onto the projector?
-   - Aver Media Capture Card
-   - PB Management
-   - Christie Pandora Box
-   - Arduino
-   - Unity Hub
+* PB Meshing - Table and Screen Projection
+* Unity Code GUI editing
 
-- **Team's Infomation**
 
 ## Types of Coding Language(s)
 
@@ -692,32 +725,3 @@ C[Router] --> D[192.168.77.7]
    ![Alt text](UnityHub/bluescreen.jpg)
 
 ---
-
-## Team's Information
-### These are the Team Members that worked together to make a functioning project:
-
-
-**Abbie(Leader)**
-
-* Arduino Programming - Joystick and Buttons Control
-* Joystick and Buttons Hardware Interfacing to Arduino
-* Unity Code editing, Arduino Communication
-* PB Meshing - Table and Screen Projection
-
-**Sean(Assistant Leader)**
-
-* Arduino Programming - Joystick and Buttons Control
-* Joystick and Buttons Hardware Interfacing to Arduino
-* Unity Code editing, Arduino Communication
-* Video System setup
-
-**William(Member)**
-
-* Video System setup
-* Aduio System setup
-* Live Streaming setup for PB
-
-**Xin Yi(Member)**
-
-* PB Meshing - Table and Screen Projection
-* Unity Code GUI editing
