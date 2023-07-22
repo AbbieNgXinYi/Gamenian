@@ -12,7 +12,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 ## Table of Content :
 
-- **[Team's Infomation](Team's-Infomation)**
+- **[Team's Information](Team's-Information)**
 
 - **[Our Objective](#Our-Objective)**
 
