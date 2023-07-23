@@ -209,14 +209,15 @@ D--> J[Button - Right Key]
 
 #### Network Settings
 
-```mermaid
-graph LR
+| Device | IP Address | Subnet Mask | Default Gateway |
+| --- | --- | --- |  --- |
+| **Router** | 192.168.77.7 | 255.255.255.0 | 192.168.1.1 |
+| **Laptop** | 192.168.77.100 | 255.255.255.0 | 192.168.77.7 |
+| **IPCP Pro 350** | 192.168.77.15 | 255.255.255.0 | 192.168.77.7 |
+| **Optoma Projector** | 192.168.77.16 | 255.255.255.0 | 192.168.77.7 |
+| **Media Server (ThinkServer)** | 192.168.77.30 | 255.255.255.0 | 192.168.77.7 |
+| **DMP 64** | 192.168.77.11 | 255.255.255.0 | 192.168.77.7 |
 
-A[IP Address/Range] --> B[192.168.77.2 - 192.168.77.254]
-
-C[Router] --> D[192.168.77.7]
-
-```
 
 ### Floor & Cabling Plan
 
@@ -328,6 +329,17 @@ C[Router] --> D[192.168.77.7]
    **(In our project, as we do not have enough LAN ports, we will be using a network switch.)**
 
 3) Secondly, connect the DMP 64 outputs that will be used to the corresponding XPA 1002 inputs via speaker/mic/LAN cable.
+
+
+### Control Installation
+
+1) In our setup, you will need 1 Laptop, 1 Control Processor (IPCP Pro 350).
+
+2) To be able to program for our equipment controls, the control processor is needed.
+
+3) To use the control processor, simply connect it to the laptop via LAN.
+   **(In our project, as we do not have enough LAN ports, we will be using a network switch.)**
+
 
 ### Arduino Leonardo
 
@@ -535,6 +547,14 @@ C[Router] --> D[192.168.77.7]
 
 
 ### DMP 64 presets
+
+
+### Configure Control Processor
+
+
+### Extron GCP and GUI Designer
+
+
 
 ---
 
