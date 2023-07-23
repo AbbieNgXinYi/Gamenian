@@ -292,43 +292,39 @@ D--> J[Button - Right Key]
 ### Video Installation
 **[(Back To Top)](#top)**
 
-1) In our setup, we have 2 projectors setup(1 for table, 1 for the projection screen)
+1) In our setup, we have 1 Projector and 1 Projector Screen
 
 ![Alt text](images314Github/-6339063505319213120_121.jpg)
 
-2) The position of the projector for the table is faced down while the projector for the projection screen is faced forward.
-
-![Alt text](images314Github/SGCAM_20230530_173849279.jpg)
-
-3) Both projectors would be connected to the media server via HDMI.
-   We required the use of 2 DP to HDMI Adapters as the server only accepts DP and we only had HDMI cables.
+2) The projector is connected to the media server via HDMI.
+   We required the use of a DP to HDMI Adapters as the server only accepts DP and we only had HDMI cables.
 
 ![Alt text](images314Github/SGCAM_20230606_143235204.jpg)
 
 ![Alt text](images314Github/SGCAM_20230606_165027870.jpg)
 
-4) Due to the distance of the projector and media server being a few meters away from each other, we used 2 pairs of
+3) Due to the distance of the projector and media server being a few meters away from each other, we used 1 pair of
    HDMI extenders to increase the reach for the HDMI cables.
 
 ![Alt text](images314Github/SGCAM_20230606_165220717.jpg)
 
-5) Note: HDMI Extenders help ensure proper and stable cable management
+4) Note: HDMI Extenders help ensure proper and stable cable management
     * Help reduce hardware issues that relate to the cabling like:
         1) lose connection
         2) Cable being pulled out
     * Extenders run on LAN cables for extension
         1) LAN cables have a locking mechanism while HDMI cables do not. This ensures that aren't lose or pulled out easily.
 
-6) Next, we would connect the media server to the laptop via LAN to project out our content.
+5) Next, we would connect the media server to the laptop via LAN to project out our content.
 
 ![Alt text](images314Github/SGCAM_20230606_143222420.jpg)
 
-7) In our setup, we will be using a capture card(Aver Media) connected via USB-A to USB Micro B to the media server and
+6) In our setup, we will be using a capture card(Aver Media) connected via USB-A to USB Micro B to the media server and
    laptop as we will be live streaming our content through christie pandora box(Projection mapping software).
 
 ![Alt text](images314Github/SGCAM_20230606_143539821.jpg)
 
-8) In order to use christie pandora box, we require a dongle(License to use pandora box) for the media server and the laptop.
+7) In order to use christie pandora box, we require a dongle(License to use pandora box) for the media server and the laptop.
 
 
 **Media Server**
