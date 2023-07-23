@@ -580,21 +580,21 @@ D--> J[Button - Right Key]
 
 3) Open up the Extron DSP Configurator and choose the appropiate device. In our case, it would be DMP 64.
 
-![Alt text](images314GitHub/DSP%20Steps/Step%201.png)
+![Alt text](images314GitHub/DSP%20Steps/Step_1.png)
 
 4) Find the button which says **Live** and click on it.
 
-![Alt text](images314GitHub/DSP%20Steps/Step%202.png)
+![Alt text](images314GitHub/DSP%20Steps/Step_2.png)
 
 5) Under **Connect to device...** find and click on the USB tab if not on that tab.
 
-![Alt text](images314GitHub/DSP%20Steps/Step%203.png)
+![Alt text](images314GitHub/DSP%20Steps/Step_3.png)
 
 6) Next, select the appropiate device and click **OK**.
 
 7) Next, choose the option where it says **Pull Data...** and click on **OK**
 
-![Alt text](images314GitHub/DSP%20Steps/Step%204.png)
+![Alt text](images314GitHub/DSP%20Steps/Step_4.png)
 
 8) Find the **Tools** Tab and find **Device Settings** and click it.
 
@@ -613,7 +613,7 @@ The presets that we will be setting are for audio mute and unmute.
 
 1) Make sure that you are in **Live** mode and **not Emulate**.
 
-![Alt text](images314GitHub/DSP%20Steps/Step%202.png)
+![Alt text](images314GitHub/DSP%20Steps/Step_2.png)
 
 2) First we would need to route our audio. 
 
@@ -621,7 +621,7 @@ The routing of the audio depends on your connection of your audio amplifier to t
 For this project, the inputs and outputs we have used are 1 & 2. 
 Our input 1 is routed to ouput 1 and the same goes for input and output 2.
 
-![Alt text](images314GitHub/DSP%20Steps/Step%206.png)
+![Alt text](images314GitHub/DSP%20Steps/Step_6.png)
 
 
 3)Secondly, select the device used in your input and output.
@@ -631,15 +631,15 @@ In the **Buliding Blocks** interface, click on the appropiate folder and device 
 
 **Input Selection**
 
-![Alt text](images314GitHub/DSP%20Steps/Step%205.png)
+![Alt text](images314GitHub/DSP%20Steps/Step_5.png)
 
 **Output Selection**
 
-![Alt text](images314GitHub/DSP%20Steps/Step%205(2).png)
+![Alt text](images314GitHub/DSP%20Steps/Step_5(2).png)
 
 3) Once you have selected, click on the **dark grey box** and **rename** the input and output to the device you are using for easier reference.
 
-![Alt text](images314GitHub/DSP%20Steps/Step%207.png)
+![Alt text](images314GitHub/DSP%20Steps/Step_7.png)
 
 4) Lastly, save your file. 
 
