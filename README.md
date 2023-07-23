@@ -794,6 +794,18 @@ Find the icon that let's you import your GUI File/Layout
 ![Alt text](images314GitHub/MVP%20Img/Launch%20panel.jpg)
 
 
+
+### Configuring Router
+
+1) Connect to your Router
+
+2) Type the default Router IP Address into the web browser
+
+3) Login in to the site
+
+4) Once logged in, assign your DHCP and Static IP address.
+
+
 ---
 
 ## Testing Phase
