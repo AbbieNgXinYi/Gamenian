@@ -62,7 +62,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
    - Configuring Network of DMP 64
    - DMP 64 presets
 
-- **[Testing Phase](#Testing-Phase)(With Instructions and Demo)**
+- **[Testing Phase](#Testing-Phase) (With Instructions and Demo)**
    - Connect 4
    - 2048 
    - Ping Pong
