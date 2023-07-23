@@ -77,7 +77,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 
 ## Our Objective
-[Back To Top](#top)
+**[(Back To Top)](#top)**
 
 **To give existing furniture more features:**
 
@@ -86,6 +86,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 * Help to save space
 
 ## Unique Features
+**[(Back To Top)](#top)**
 
 * Players are able to concentrate on the game that is one the table while the audience can enjoy 
   spectating the game by watching the gameplay on the second output(wall)
@@ -95,6 +96,8 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 
 ## Team Information
+**[(Back To Top)](#top)**
+
 ### These are the Team Members that worked together to make a functioning project:
 
 **Abbie(Leader)**
@@ -149,12 +152,14 @@ With our project, we aim to help tackle some of these issues and add value to ex
    + Game instructions - asset creation
 
 ## Game Coding Language(s)
+**[(Back To Top)](#top)**
 
 * C#
 
 ---
 
 ## Game Development
+**[(Back To Top)](#top)**
 
 ### Two Player Game:
 
@@ -171,6 +176,7 @@ Game Development With SFX (Completion 100%)
 ---
 
 ## Setup Progress
+**[(Back To Top)](#top)**
 
 ### Bill Of Materials
 
@@ -178,7 +184,7 @@ Game Development With SFX (Completion 100%)
 
 ### Video Setup
 
-![Alt text](SystemDiagram/Video.png)
+![Alt text](SystemDiagram/314-e-schematic-v.png)
 
 ### Audio Setup
 
@@ -186,9 +192,9 @@ Game Development With SFX (Completion 100%)
 
 ### Control Setup
 
-#### Projector Control
+#### Equipment Control
 
-![Alt text](SystemDiagram/ProjectorControl.png)
+![Alt text](SystemDiagram/314-e-schematic-c.png)
 
 #### Arudino Control
 
@@ -208,6 +214,7 @@ D--> J[Button - Right Key]
 ```
 
 #### Network Settings
+**[(Back To Top)](#top)**
 
 | Device | IP Address | Subnet Mask | Default Gateway |
 | --- | --- | --- |  --- |
@@ -220,6 +227,7 @@ D--> J[Button - Right Key]
 
 
 ### Floor & Cabling Plan
+**[(Back To Top)](#top)**
 
 ![Alt text](floor&cablingplan/floor1.jpeg)
 
@@ -248,6 +256,7 @@ D--> J[Button - Right Key]
 ---
 
 ## Installation phase
+**[(Back To Top)](#top)**
 
 ### Lighting Installation
 1) In this setup, we use LED Strips to hang up on top of of the metal truss to light up the area.
@@ -270,6 +279,7 @@ D--> J[Button - Right Key]
 :https://www.malighting.com/downloads/products/grandma3/
 
 ### Video Installation
+**[(Back To Top)](#top)**
 
 1) In our setup, we have 2 projectors setup(1 for table, 1 for the projection screen)
 
@@ -322,6 +332,7 @@ D--> J[Button - Right Key]
 
 
 ### Audio Installation
+**[(Back To Top)](#top)**
 
 1) In our setup, we are using 2 ceiling speakers, 1 DMP 64 - audio DSP, and 1 XPA 1002 audio amplifier.
 
@@ -332,6 +343,7 @@ D--> J[Button - Right Key]
 
 
 ### Control Installation
+**[(Back To Top)](#top)**
 
 1) In our setup, you will need 1 Laptop, 1 Control Processor (IPCP Pro 350).
 
@@ -342,8 +354,9 @@ D--> J[Button - Right Key]
 
 
 ### Arduino Leonardo
-
 <br>
+
+**[(Back To Top)](#top)**
 
 ![Alt text](ArduinoImg/Arduino1.jpeg)
 
@@ -402,6 +415,7 @@ D--> J[Button - Right Key]
 ---
 
 ## Operational Phase
+**[(Back To Top)](#top)**
 
 ### PB Management
 
@@ -447,6 +461,7 @@ D--> J[Button - Right Key]
 ---
 
 ### Unity Hub
+**[(Back To Top)](#top)**
 
 #### Starting on Unity Hub
 
@@ -522,6 +537,7 @@ D--> J[Button - Right Key]
 
 
 ### Configuring Network of DMP 64
+**[(Back To Top)](#top)**
 
 **This step is to help you configure the DMP 64 if you are using your own network or also which to create your own controls through the extron DSP configurator:**
 
@@ -547,18 +563,87 @@ D--> J[Button - Right Key]
 
 
 ### DMP 64 presets
+**[(Back To Top)](#top)**
+
+The DMP 64 presets are for the user to be able to control the audio that is being played from the laptop.
+The presets that we will be setting are for audio mute and unmute.
+
+1) Make sure that you are in **Live** mode and **not Emulate**.
+
+![Alt text](images314GitHub/DSP%20Steps/Step%202.png)
+
+2) First we would need to route our audio. 
+
+The routing of the audio depends on your connection of your audio amplifier to the DMP 64.
+For this project, the inputs and outputs we have used are 1 & 2. 
+Our input 1 is routed to ouput 1 and the same goes for input and output 2.
+
+![Alt text](images314GitHub/DSP%20Steps/Step%206.png)
+
+
+3)Secondly, select the device used in your input and output.
+
+To select the device, click on the number and the **Buliding Blocks** interface will show up.
+In the **Buliding Blocks** interface, click on the appropiate folder and device in the folder.
+
+**Input Selection**
+
+![Alt text](images314GitHub/DSP%20Steps/Step%205.png)
+
+**Output Selection**
+
+![Alt text](images314GitHub/DSP%20Steps/Step%205(2).png)
+
+3) Once you have selected, click on the **dark grey box** and **rename** the input and output to the device you are using for easier reference.
+
+![Alt text](images314GitHub/DSP%20Steps/Step%207.png)
+
+4) Lastly, save your file. 
+
+
+With that, you are doing creating a preset. 
+To create a preset for audio mute, simply uncheck the routing points and save your preset.
+
+To recall a preset, find the Tab which says **Preset**.
+In the dropdown menu, find for the preset which you wish to edit and click on **recall**.
+![Alt text](images314GitHub/DSP%20Steps/Preset.png)
 
 
 ### Configure Control Processor
+**[(Back To Top)](#top)**
+
+Here are the steps to configure your Processor if you have used your own AV Network.
+In this project, we the processor we have used is the Extron IPCP Pro 350. Thus, we will be using the Extron software to configure our processor.
+
+1) Download the Extron Toolbelt.
+
+2) Connect your Processor to the Laptop via LAN.
+
+3) Open up the Extron Toolbelt sofware, and click on **Discovery**.
+
+![Alt text](images314GitHub/CP%20Configure/Discovery.png)
+
+4) Once the device appears, click on the **Discovery** button again to uncheck the button.
+
+5) Next click on the device IP Address.
+
+Your device information should be visible to you once you have clicked on the device IP Address.
+
+![Alt text](images314GitHub/CP%20Configure/device%20info.png)
+
+6) Find the **Network** Tab and click on it. In the **Network** Tab, you will be able to change your device IP Address.
+
+![Alt text](images314GitHub/CP%20Configure/Click%20on%20Network.png)
 
 
 ### Extron GCP and GUI Designer
-
+**[(Back To Top)](#top)**
 
 
 ---
 
 ## Testing Phase
+**[(Back To Top)](#top)**
 
 ### Connect 4 (Game Demo)
 
@@ -695,6 +780,7 @@ D--> J[Button - Right Key]
 
 
 ### Troubleshooting
+**[(Back To Top)](#top)**
 
 #### What if the video is unable to livefeed onto the projector?
 
