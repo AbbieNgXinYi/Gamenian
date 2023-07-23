@@ -66,6 +66,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
    - Extron GCP and GUI Designer
       - Extron GUI Designer
       - Extron GCP
+   - Configuring Router
 
 - **[Testing Phase](#Testing-Phase) (With Instructions and Demo)**
    - Connect 4
