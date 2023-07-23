@@ -26,6 +26,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 - **[Setup Progress](#Setup-Progress)**
    - Bill Of Materials (BOM)
+   - Lighting Setup
    - Video Setup
    - Audio Setup
    - Control Setup
@@ -40,6 +41,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
       - Rack Layout
 
 - **[Installation Phase](#Installation-Phase)**
+   - Lighting Installation
    - Video Installation
       - Media Server
       - Laptop
@@ -60,6 +62,10 @@ With our project, we aim to help tackle some of these issues and add value to ex
       - build your Game
    - Configuring Network of DMP 64
    - DMP 64 presets
+   - Configure Control Processor
+   - Extron GCP and GUI Designer
+      - Extron GUI Designer
+      - Extron GCP
 
 - **[Testing Phase](#Testing-Phase) (With Instructions and Demo)**
    - Connect 4
@@ -74,6 +80,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
    - Christie Pandora Box
    - Arduino
    - Unity Hub
+   - Extron GCP and GUI Designer
 
 
 ## Our Objective
@@ -249,6 +256,24 @@ D--> J[Button - Right Key]
 
 
 ### Cabling Layout
+
+![Alt text](images314Github/MVP%20Img/msg922999526-37080.jpg)
+
+![Alt text](images314Github/MVP%20Img/msg922999526-37081.jpg)
+
+![Alt text](images314Github/MVP%20Img/msg922999526-37082.jpg)
+
+![Alt text](images314Github/MVP%20Img/msg922999526-37083.jpg)
+
+![Alt text](images314Github/MVP%20Img/msg922999526-37084.jpg)
+
+![Alt text](images314Github/MVP%20Img/msg922999526-37085.jpg)
+
+![Alt text](images314Github/MVP%20Img/msg922999526-37086.jpg)
+
+![Alt text](images314Github/MVP%20Img/Projector%20LAN%20connection.jpg)
+
+![Alt text](images314Github/MVP%20Img/Router%20LAN%20connection.jpg)
 
 
 ### Rack layout
