@@ -547,15 +547,25 @@ D--> J[Button - Right Key]
 
 3) Open up the Extron DSP Configurator and choose the appropiate device. In our case, it would be DMP 64.
 
+![Alt text](images314GitHub/DSP%20Steps/Step%201.png)
+
 4) Find the button which says **Live** and click on it.
 
-5) Next, choose the option where it says **Pull Data...** and click on **OK**
+![Alt text](images314GitHub/DSP%20Steps/Step%202.png)
 
-6) Find the **Tools** Tab and find **Device Settings** and click it.
+5) Under **Connect to device...** find and click on the USB tab if not on that tab.
 
-7) Under **Connect to device...** find and click on the USB tab if not on that tab.
+![Alt text](images314GitHub/DSP%20Steps/Step%203.png)
 
-8) Next, select the appropiate device and click **OK**.
+6) Next, select the appropiate device and click **OK**.
+
+7) Next, choose the option where it says **Pull Data...** and click on **OK**
+
+![Alt text](images314GitHub/DSP%20Steps/Step%204.png)
+
+8) Find the **Tools** Tab and find **Device Settings** and click it.
+
+![Alt text](images314GitHub/DSP%20Steps/Network.png)
 
 9) You will be directed to a page where you will be able to edit your IP Address. 
 
@@ -638,6 +648,118 @@ Your device information should be visible to you once you have clicked on the de
 
 ### Extron GCP and GUI Designer
 **[(Back To Top)](#top)**
+
+To program our controls, we will be using the Extron GCP and GUI Designer. We are using Extron softwares as our control processor is an Extron device. 
+
+#### Extron GUI Designer
+
+1) Download Extron GUI Designer
+
+To start off, we will design our controls in the Extron GUI Designer.
+Once you have open Extron GUI Designer, find the **File** Tab and click on **New Project**
+
+![Alt text](images314GitHub/GUI%20Designer/New%20project.png)
+
+2) Choose your Interface
+
+In this project, we will be using the interface for iOS.
+Once you have the selected the appropiate interface, click on create.
+
+![Alt text](images314GitHub/GUI%20Designer/TouchPanel.png)
+
+3) Start Designing your interface - Basic Designing
+
+For this project, we will be learning to design a basic interface. 
+For our interface, we will only be designing with Buttons and Labels. We will be designing for our projector controls.
+
+4) Drag and drop your **Button** into your Page
+
+Find the Tab which says **Control** and in that tab find **Button**. Once you have **Button**, click on it, then drag and drop it into your **Page**. Drag and drop 2 Buttons into your page.
+
+![Alt text](images314GitHub/GUI%20Designer/ControlTab.png)
+
+
+5) Do the same for your **Label** but just 1 **Label** will do.
+
+6) Label your Button
+
+To Label your **Button**, double click on it. For our First Button, label it ***ON***. For the second, ***OFF***.
+For your **Label**, change it to ***Projector Controls***.
+
+![Alt text](images314GitHub/GUI%20Designer/labeling.png)
+
+7) Save and Build your File.
+
+![Alt text](images314GitHub/GUI%20Designer/Save.png)
+
+
+#### Extron GCP
+
+1) Download Extron GCP
+
+To start off, we will design our controls in the Extron GCP.
+Once you have open Extron GCP, find the **File** Tab and click on **New Project**.
+
+![Alt text](images314GitHub/MVP%20Img/newproject.png)
+
+2) Add the control processor device and Touch Panel
+
+**Step 1**
+Click on the **'+'** to add the control processor device
+
+![Alt text](images314GitHub/MVP%20Img/how%20to%20add%20IPCP.jpg)
+
+**Step 2**
+Select and add the appropiate control processor
+![Alt text](images314GitHub/MVP%20Img/select%20IPCP%20.jpg)
+
+Change the IP Address if necessary
+![Alt text](images314GitHub/MVP%20Img/select%20IPCP%20and%20change%20IP%20Add%20.jpg)
+
+**Step 3**
+Click on the **'+'** on the control processor device to add the Touch Panel
+![Alt text](images314GitHub/MVP%20Img/how%20to%20add%20touch%20panel.jpg)
+
+**Step 4**
+Select and add the appropiate control device
+![Alt text](images314GitHub/MVP%20Img/add%20touch%20panel.jpg)
+
+3) Adding the appropiate drivers
+
+All Extron drivers can be downloaded from their website.
+![Alt text](images314GitHub/MVP%20Img/extrondriverspage.png)
+
+**Step 1** 
+Find the communication port Tab under the configuration palette
+![Alt text](images314GitHub/MVP%20Img/communication%20port%20to%20add%20driver.jpg)
+
+**Step 2**
+Click on the port that you will be using. Under that port, find and click on the **down arrow** and click **add driver**.
+![Alt text](images314GitHub/MVP%20Img/add%20driver%20to%20port.jpg)
+
+**Step 3**
+Proceed to select the appropiate driver that you will be using. In this project, we will be using the DAWUGN projector driver by optoma.
+![Alt text](images314GitHub/MVP%20Img/drivers.jpeg)
+
+4) Programming user interface
+
+**Step 1**
+Head to user interface under the confuguration palette in touch panel.
+![Alt text](images314GitHub/MVP%20Img/User%20Interfaces%20to%20program.jpg)
+
+**Step 2**
+Find the icon that let's you import your GUI File/Layout
+![Alt text](images314GitHub/MVP%20Img/Import%20Layout%20-%20GUI.jpg)
+
+
+5) Program your GUI
+
+![Alt text](images314GitHub/MVP%20Img/programming.png)
+
+
+6) Lauch your Extron Touch Panel to use your interface
+
+![Alt text](images314GitHub/MVP%20Img/Launch%20panel.jpg)
 
 
 ---
@@ -854,5 +976,16 @@ Your device information should be visible to you once you have clicked on the de
 * If you uncheck the box, you will be given a blue screen instead of the game interface
 
    ![Alt text](UnityHub/bluescreen.jpg)
+
+
+### Extron GCP and GUI Designer
+
+* Check that the driver you are using is the correct driver for your projector
+
+* Check that you have imported the correct GUI file
+
+* Remember to always save your file before launching the touch panel
+
+* Check that your username and password when you launch your touch panel is correct
 
 ---
