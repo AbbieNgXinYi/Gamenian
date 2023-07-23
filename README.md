@@ -250,12 +250,19 @@ D--> J[Button - Right Key]
 
 ### Cabling Layout
 
-![Alt text](rack&cablinglayout/cable.png)
-
 
 ### Rack layout
 
-![Alt text](rack&cablinglayout/rack.png)
+| Devices in Rack | 
+| --- |
+| Laptop |
+| Netgear Router |
+| Cisco Network Switch |
+| Aver Media Capture Card |
+| Media Server |
+| Extron DMP 64 |
+| Extron IPCP Pro 350 |
+| Extron XPA 1002 |
 
 ---
 
