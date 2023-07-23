@@ -190,6 +190,10 @@ Game Development With SFX (Completion 100%)
 
 ![Alt text](SystemDiagram/314-e-schematic-a.png)
 
+### Lighting Setup
+
+![Alt text](SystemDiagram/314%20LIGHTING.png)
+
 ### Control Setup
 
 #### Equipment Control
