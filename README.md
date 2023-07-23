@@ -18,8 +18,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 - **[Team Information](#Team-Information)**
 
-- **[Game codes](#Game-codes)**
-   - Coding language(s) used to code games
+- **[Game Coding Language(s)](#Game-Coding-Language(s))**
 
 - **[Game Development](#Game-Development)**
    - Two-Player Games
@@ -148,7 +147,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
    + Incorporate Main Menu 
    + Game instructions - asset creation
 
-## Types of Coding Language(s)
+## Game Coding Language(s)
 
 * C#
 
