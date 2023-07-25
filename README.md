@@ -12,7 +12,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 ## Table of Content :
 
-- **[Our Objective](#Our-Objective)**
+- **[Our Objective]**(#Our-Objective)
 
 - **[Unique Features](#Unique-Features)**
 
