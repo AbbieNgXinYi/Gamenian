@@ -12,11 +12,11 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 ## Table of Content :
 
-- [Our Objective](#Our-Objective)
+- **[Our Objective](#Our-Objective)**
 
-- [Unique Features](#Unique-Features)
+- **[Unique Features](#Unique-Features)**
 
-- [Team Information](#Team-Information)
+- **[Team Information](#Team-Information)**
 
 - **[Game Coding Language(s)](#Game-Coding-Language(s))**
 
@@ -443,10 +443,13 @@ D--> J[Button - Right Key]
 
 **Joystick and Button Setup**
 
-![Alt text](ArduinoImg/J%26B1.jpeg)
+![Alt tqext](ArduinoImg/J%26B1.jpeg)
+
+
+### Network Router Installation 
+Connect your router to your laptop via LAN. If you don not have enough ports, you would require the use of a network switch.
 
 ---
-
 ## Operational Phase
 **[(Back To Top)](#top)**
 
@@ -798,7 +801,7 @@ Find the icon that let's you import your GUI File/Layout
 
 ### Configuring Router
 
-1) Connect to your Router
+1) Reset your router 
 
 2) Type the default Router IP Address into the web browser
 
