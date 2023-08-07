@@ -848,7 +848,8 @@ Find the icon that let's you import your GUI File/Layout
 ---
 
 ![Alt text](SnakeGame/gameoverMenu.png)
-![Alt text](SnakeGame/gameoverMenuRP.png)
+
+![Alt text](SnakeGame/gameoverRP.png)
 
 ---
 
