@@ -69,7 +69,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
    - Configuring Router
 
 - **[Testing Phase](#Testing-Phase) (With Instructions and Demo)**
-   - Connect 4
+   - Snake
    - 2048 
    - Ping Pong
    - Joystick and Button Demo
@@ -172,7 +172,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 ### Two Player Game:
 
 Game Development With SFX (Completion 100%)
-* Connect 4 
+
 * Ping Pong Game
 
 ### Single Player Game:
@@ -180,6 +180,7 @@ Game Development With SFX (Completion 100%)
 Game Development With SFX (Completion 100%)
 
 * 2048
+* Snake
 
 ---
 
@@ -815,36 +816,39 @@ Find the icon that let's you import your GUI File/Layout
 ## Testing Phase
 **[(Back To Top)](#top)**
 
-### Connect 4 (Game Demo)
+### Snake (Game Demo)
 
-* Its a 2 player game.
+* Its a single player game.
 * Players are given a controller to play the game.
-* To play, players would be required to click in any of the columns in the provided grid to drop their coloured discs.
+* The players are to use the arrow keys **(Up, Down, Left, Right)** to move the "Snake"
+* The more the snake eats, more it grows.
+* Eat as much food as you can without touching the walls or any of the snake's body parts
+* The game will *END* when the snake head touches the wall or any parts of the body.
 
-<https://github.com/AbbieNgXinYi/Gamenian/blob/main/Connect4img/takeTurns.mp4>
-
-* To win the game, the first player that gets 4 in a row, vertically, horizontally or diagonally, wins the game.
-
----
-![Alt text](Connect4img/win1.jpeg)
-
-![Alt text](Connect4img/win2.jpeg)
-
-![Alt text](Connect4img/win3.jpeg)
+<https://github.com/AbbieNgXinYi/Gamenian/SnakeGame/snakedemo.mp4>
 
 ---
 
-* To restart the game, click on the start button
+* Click on the **"ESC"** button to pause the game
 
 ---
-![Alt text](Connect4img/startBTN.png)
+![Alt text](SnakeGame/Pausemenu.png)
 
 ---
 
-* To quit the game, click on the quit button
+* To quit the game, click on the quit button in the pause menu
 
 ---
-![Alt text](Connect4img/quitBTN.png)
+![Alt text](SnakeGame/PausemenuQuit.png)
+
+---
+
+* When game over, you are given the option to start over or quit
+
+---
+
+![Alt text](SnakeGame/gameoverMenu.png)
+![Alt text](SnakeGame/gameoverMenuRP.png)
 
 ---
 
@@ -901,11 +905,11 @@ Find the icon that let's you import your GUI File/Layout
 * You can only move **Up or Down**, NEVER side-ways. Only the *Ball* can move side-ways or even diagonally.
 * With the keyboard controls of ( W  , S ) for Player1 while the other control for Player2 is ( Up , Down arrow keys)
 * You can move individual paddle to hit the ball.
-* **( Orange for Player1, Blue for Player2).**
+* **( Blue for Player1, Orange for Player2).**
 
 ![Alt text](/PongImages/PongGame.png)
 
-* To quit the game, click **"Quit"**
+* Click the **"ESC"** button to bring you to the Pause menu
 
 ![Alt text](/PongImages/QuitGame.png)
 
