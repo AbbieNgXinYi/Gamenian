@@ -819,31 +819,37 @@ Find the icon that let's you import your GUI File/Layout
 ### Snake (Game Demo)
 
 * Its a single player game.
-* Players are given a controller to play the game.
-* The players are to use the arrow keys **(Up, Down, Left, Right)** to move the "Snake"
+* Player is given a controller to play the game.
+* Player need to use the arrow keys **(Up, Down, Left, Right)** to move the "Snake"
 * The more the snake eats, more it grows.
 * Eat as much food as you can without touching the walls or any of the snake's body parts
 * The game will *END* when the snake head touches the wall or any parts of the body.
 
+---
+
+* Here is the game demo of Snake:
+  
 <https://github.com/AbbieNgXinYi/Gamenian/SnakeGame/snakedemo.mp4>
 
 ---
 
-* Click on the **"ESC"** button to pause the game
+* Click on the **"ESC"** button of the controller to pause the game
 
 ---
+
 ![Alt text](SnakeGame/Pausemenu.png)
 
 ---
 
-* To quit the game, click on the quit button in the pause menu
+* Once in pause menu, you are given the options to **quit** the game or **resume**
 
 ---
+
 ![Alt text](SnakeGame/PausemenuQuit.png)
 
 ---
 
-* When game over, you are given the option to start over or quit
+* When **Game Over** , you are given the option to start over or quit from the game
 
 ---
 
@@ -855,44 +861,66 @@ Find the icon that let's you import your GUI File/Layout
 
 ## 2048 (2nd game demo)
 
-* It's a single player game
-* It is played on a 4x4 grid
-* Players are given a controller to move the tiles **( up, down, left, right)**
-* To play, the player must combine tiles containing the same numbers until they reach the number **2048**.
+* It's a single player game.
+* It is played on a 4x4 grid.
+* Players are given a controller to move the tiles **( up, down, left, right)** or **( W, A, S, D)**.
+* To play, the player must combine tiles until they reach the number **2048**.
+* The tiles can only be **combined** if the numbers are the same. 
 
 ---
+
 ![Alt text](/2048img/2048bootup.jpg)
 
 ---
 
 * The tiles contain only integer values starting from 2 and that are a power of 2 ( like 2,4,8,16,32, etc)
 * Players will start with 2tiles, the lowest possible number available is 2.
-* The game will end if players are able to reach 2048 **OR** ran out of tiles to move. 
+* The game will end if players are able to reach 2048 **OR** ran out of tiles to move.
+
 ---
+
+* Use the space bar to click **"Try Again"** if want to replay the game.
+
 ![Alt text](/2048img/2048gameover.jpg)
 
 ---
+
 * While the game technically ends when players hit 2048, the game will let you continue past it
 
-* To restart the game, click **"New Game"**
+* To restart the game, use the arrow keys (Left, Right) or (A, D), and hit the space bar to press **"New Game"**
+  
 ---
+
 ![Alt text](/2048img/2048restart.jpg)
 
 ---
+
 * This is your current score of the current game
+
 ---
 ![Alt text](/2048img/2048personalscore.jpg)
 
 ---
+
 * This is the high score/best score that you had achieve the previous game
+
 ---
 ![Alt text](/2048img/2048highscore.jpg)
 
 ---
-* To quit the game, click **"Quit"**
+* To quit the game, use the space bar and press **"Quit"**
 
 ---
+
 ![Alt text](/2048img/2048quit.jpg)
+
+---
+
+* To pause the game, press **"ESC"** button on the controller
+
+---
+
+![Alt text](/SnakeGame/Pausemenu.png)
 
 ---
 
@@ -910,13 +938,15 @@ Find the icon that let's you import your GUI File/Layout
 
 ![Alt text](/PongImages/PongGame.png)
 
+---
+
 * Click the **"ESC"** button to bring you to the Pause menu
 
 ![Alt text](/PongImages/QuitGame.png)
 
 ---
 
-* This is individuals scores ( Both you and your opponents ), depending where you stand, the section where u can move your paddle, it is your score.
+* This is individuals scores ( Both you and your opponents ), depending where you are sitted, the section of where u can move your paddle, it is your score.
 
 ![Alt text](/PongImages/ScorePlayer.png)
 
@@ -928,11 +958,11 @@ Find the icon that let's you import your GUI File/Layout
 
 ---
 
-* To replay the match again, click **"Replay"**
+* To replay the match again, press **"Replay"**
 
 ![Alt text](/PongImages/Replay.png)
 
-* If not, click **"Main Menu"** to go back to quit game, and back to main menu screen
+* If not, click **"Main Menu"** to quit game, which brings you back to main menu screen
 
 ![Alt text](/PongImages/BackToMenu.png)
 
