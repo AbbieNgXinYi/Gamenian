@@ -213,10 +213,10 @@ Game Development With SFX (Completion 100%)
 #### Arudino & Touch OSC Control
 
 ```mermaid
-graph LR
+flowchart TD
 
-A[Laptop]--> B[Arduino]
-B--> C[iPAD(TouchOSC)]
+   A[Laptop]--> B[Arduino]
+   B--> C[iPAD(TouchOSC)]
 
 ```
 
@@ -464,10 +464,11 @@ Check that you have tick the connection box. This allows you to communicate betw
 4) Subsequently, we created buttons in TouchOSC and inserted the keyboard control code to test out our keyboard controls
 
 5) You can find our codes by following this directory:
+
    ```mermaid
-   graph LR
-   
-   A[Arduino Codes]--> B[osc_keyboard_controls]
+   flowchart LR
+
+      A[Arduino Codes]--> B[osc_keyboard_controls]
    ```
 
 
