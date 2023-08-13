@@ -85,7 +85,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 
 ## Our Objective
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 **To give existing furniture more features:**
 
@@ -94,7 +94,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 * Help to save space
 
 ## Unique Features
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 * Players are able to concentrate on the game that is one the table while the audience can enjoy 
   spectating the game by watching the gameplay on the second output(wall)
@@ -104,7 +104,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 
 ## Team Information
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 ### These are the Team Members that worked together to make a functioning project:
 
@@ -160,14 +160,14 @@ With our project, we aim to help tackle some of these issues and add value to ex
    + Game instructions - asset creation
 
 ## Game Coding Language(s)
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 * C#
 
 ---
 
 ## Game Development
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 ### Two Player Game:
 
@@ -185,7 +185,7 @@ Game Development With SFX (Completion 100%)
 ---
 
 ## Setup Progress
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 ### Bill Of Materials
 
@@ -227,7 +227,7 @@ D--> J[Button - Right Key]
 ```
 
 #### Network Settings
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 | Device | IP Address | Subnet Mask | Default Gateway |
 | --- | --- | --- |  --- |
@@ -240,7 +240,7 @@ D--> J[Button - Right Key]
 
 
 ### Floor & Cabling Plan
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 ![Alt text](floor&cablingplan/floor1.jpeg)
 
@@ -294,7 +294,7 @@ D--> J[Button - Right Key]
 ---
 
 ## Installation phase
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 ### Lighting Installation
 1) In this setup, we use LED Strips to hang up on top of of the metal truss to light up the area.
@@ -317,7 +317,7 @@ D--> J[Button - Right Key]
 :https://www.malighting.com/downloads/products/grandma3/
 
 ### Video Installation
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 1) In our setup, we have 1 Projector and 1 Projector Screen
 
@@ -366,7 +366,7 @@ D--> J[Button - Right Key]
 
 
 ### Audio Installation
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 1) In our setup, we are using 2 ceiling speakers, 1 DMP 64 - audio DSP, and 1 XPA 1002 audio amplifier.
 
@@ -377,7 +377,7 @@ D--> J[Button - Right Key]
 
 
 ### Control Installation
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 1) In our setup, you will need 1 Laptop, 1 Control Processor (IPCP Pro 350).
 
@@ -390,7 +390,7 @@ D--> J[Button - Right Key]
 ### Arduino Leonardo
 <br>
 
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 ![Alt text](ArduinoImg/Arduino1.jpeg)
 
@@ -452,7 +452,7 @@ Connect your router to your laptop via LAN. If you don not have enough ports, yo
 
 ---
 ## Operational Phase
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 ### PB Management
 
@@ -498,7 +498,7 @@ Connect your router to your laptop via LAN. If you don not have enough ports, yo
 ---
 
 ### Unity Hub
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 #### Starting on Unity Hub
 
@@ -574,7 +574,7 @@ Connect your router to your laptop via LAN. If you don not have enough ports, yo
 
 
 ### Configuring Network of DMP 64
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 **This step is to help you configure the DMP 64 if you are using your own network or also which to create your own controls through the extron DSP configurator:**
 
@@ -610,7 +610,7 @@ Connect your router to your laptop via LAN. If you don not have enough ports, yo
 
 
 ### DMP 64 presets
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 The DMP 64 presets are for the user to be able to control the audio that is being played from the laptop.
 The presets that we will be setting are for audio mute and unmute.
@@ -657,7 +657,7 @@ In the dropdown menu, find for the preset which you wish to edit and click on **
 
 
 ### Configure Control Processor
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 Here are the steps to configure your Processor if you have used your own AV Network.
 In this project, we the processor we have used is the Extron IPCP Pro 350. Thus, we will be using the Extron software to configure our processor.
@@ -684,7 +684,7 @@ Your device information should be visible to you once you have clicked on the de
 
 
 ### Extron GCP and GUI Designer
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 To program our controls, we will be using the Extron GCP and GUI Designer. We are using Extron softwares as our control processor is an Extron device. 
 
@@ -814,7 +814,7 @@ Find the icon that let's you import your GUI File/Layout
 ---
 
 ## Testing Phase
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 ### Snake (Game Demo)
 
@@ -985,7 +985,7 @@ Find the icon that let's you import your GUI File/Layout
 
 
 ### Troubleshooting
-**[(Back To Top)](#top)**
+**[(Back To Top)](#table-of-content-)**
 
 #### What if the video is unable to livefeed onto the projector?
 
