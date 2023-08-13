@@ -68,12 +68,14 @@ With our project, we aim to help tackle some of these issues and add value to ex
       - Extron GUI Designer
       - Extron GCP
    - Configuring Router
+      - Changing Network Name (SSID) and Wifi Password 
+      - Setting up your own AV LAN
 
 - **[Testing Phase](#testing-phase) (With Instructions and Demo)**
+   - Demo Video of Project
    - Connect 4
    - 2048 
    - Ping Pong
-   - Joystick and Button Demo
 
 - **[Troubleshooting](#troubleshooting)**
    - What if the video is unable to livefeed onto the projector?
@@ -83,6 +85,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
    - Arduino
    - Unity Hub
    - Extron GCP and GUI Designer
+   - TouchOSC Application
 
 
 ## Our Objective
@@ -215,8 +218,8 @@ Game Development With SFX (Completion 100%)
 ```mermaid
 flowchart TD
 
-   A[Laptop]--> B[Arduino]
-   B--> C[iPAD(TouchOSC)]
+   A[Laptop] -- USB --> B[Arduino]
+   B -- OSC --> C[iPAD]
 
 ```
 
@@ -648,25 +651,25 @@ Connect your router to your laptop via LAN. If you don not have enough ports, yo
 
 3) Open up the Extron DSP Configurator and choose the appropiate device. In our case, it would be DMP 64.
 
-![Alt text](images314GitHub/DSP%20Steps/Step_1.png)
+   ![Alt text](DMP_64/DSPsteps/Step%201.png)
 
 4) Find the button which says **Live** and click on it.
 
-![Alt text](images314GitHub/DSP%20Steps/Step_2.png)
+   ![Alt text](DMP_64/DSPsteps/Step%202.png)
 
 5) Under **Connect to device...** find and click on the USB tab if not on that tab.
 
-![Alt text](images314GitHub/DSP%20Steps/Step_3.png)
+   ![Alt text](DMP_64/DSPsteps/Step%203.png)
 
 6) Next, select the appropiate device and click **OK**.
 
 7) Next, choose the option where it says **Pull Data...** and click on **OK**
 
-![Alt text](images314GitHub/DSP%20Steps/Step_4.png)
+   ![Alt text](DMP_64/DSPsteps/Step%204.png)
 
 8) Find the **Tools** Tab and find **Device Settings** and click it.
 
-![Alt text](images314GitHub/DSP%20Steps/Network.png)
+   ![Alt text](DMP_64/DSPsteps/Network.jpeg)
 
 9) You will be directed to a page where you will be able to edit your IP Address. 
 
@@ -681,7 +684,7 @@ The presets that we will be setting are for audio mute and unmute.
 
 1) Make sure that you are in **Live** mode and **not Emulate**.
 
-![Alt text](images314GitHub/DSP%20Steps/Step_2.png)
+   ![Alt text](DMP_64/DSPsteps/Step%202.png)
 
 2) First we would need to route our audio. 
 
@@ -689,7 +692,7 @@ The routing of the audio depends on your connection of your audio amplifier to t
 For this project, the inputs and outputs we have used are 1 & 2. 
 Our input 1 is routed to ouput 1 and the same goes for input and output 2.
 
-![Alt text](images314GitHub/DSP%20Steps/Step_6.png)
+   ![Alt text](DMP_64/DSPsteps/Step%206.png)
 
 
 3)Secondly, select the device used in your input and output.
@@ -699,15 +702,15 @@ In the **Buliding Blocks** interface, click on the appropiate folder and device 
 
 **Input Selection**
 
-![Alt text](images314GitHub/DSP%20Steps/Step_5.png)
+![Alt text](DMP_64/DSPsteps/Step%205.png)
 
 **Output Selection**
 
-![Alt text](images314GitHub/DSP%20Steps/Step_5(2).png)
+![Alt text](DMP_64/DSPsteps/Step%205(2).png)
 
 3) Once you have selected, click on the **dark grey box** and **rename** the input and output to the device you are using for easier reference.
 
-![Alt text](images314GitHub/DSP%20Steps/Step_7.png)
+![Alt text](DMP_64/DSPsteps/Step%207.png)
 
 4) Lastly, save your file. 
 
@@ -717,7 +720,7 @@ To create a preset for audio mute, simply uncheck the routing points and save yo
 
 To recall a preset, find the Tab which says **Preset**.
 In the dropdown menu, find for the preset which you wish to edit and click on **recall**.
-![Alt text](images314GitHub/DSP%20Steps/Preset.png)
+![Alt text](DMP_64/DSPsteps/preset.png)
 
 
 ### Configure Control Processor
@@ -732,7 +735,7 @@ In this project, we the processor we have used is the Extron IPCP Pro 350. Thus,
 
 3) Open up the Extron Toolbelt sofware, and click on **Discovery**.
 
-![Alt text](images314GitHub/CP%20Configure/Discovery.png)
+![Alt text](Extron_GCP_GUI/TB_Img/Discovery.png)
 
 4) Once the device appears, click on the **Discovery** button again to uncheck the button.
 
@@ -740,11 +743,11 @@ In this project, we the processor we have used is the Extron IPCP Pro 350. Thus,
 
 Your device information should be visible to you once you have clicked on the device IP Address.
 
-![Alt text](images314GitHub/CP%20Configure/device%20info.png)
+![Alt text](Extron_GCP_GUI/TB_Img/device%20info.png)
 
 6) Find the **Network** Tab and click on it. In the **Network** Tab, you will be able to change your device IP Address.
 
-![Alt text](images314GitHub/CP%20Configure/Click%20on%20Network.png)
+![Alt text](Extron_GCP_GUI/TB_Img/device%20info.png)
 
 
 ### Extron GCP and GUI Designer
@@ -759,14 +762,14 @@ To program our controls, we will be using the Extron GCP and GUI Designer. We ar
 To start off, we will design our controls in the Extron GUI Designer.
 Once you have open Extron GUI Designer, find the **File** Tab and click on **New Project**
 
-![Alt text](images314GitHub/GUI%20Designer/New%20project.png)
+![Alt text](Extron_GCP_GUI/GUI_Img/New%20project.png)
 
 2) Choose your Interface
 
 In this project, we will be using the interface for iOS.
 Once you have the selected the appropiate interface, click on create.
 
-![Alt text](images314GitHub/GUI%20Designer/TouchPanel.png)
+![Alt text](Extron_GCP_GUI/GUI_Img/TouchPanel.png)
 
 3) Start Designing your interface - Basic Designing
 
@@ -777,7 +780,7 @@ For our interface, we will only be designing with Buttons and Labels. We will be
 
 Find the Tab which says **Control** and in that tab find **Button**. Once you have **Button**, click on it, then drag and drop it into your **Page**. Drag and drop 2 Buttons into your page.
 
-![Alt text](images314GitHub/GUI%20Designer/ControlTab.png)
+![Alt text](Extron_GCP_GUI/GUI_Img/ControlTab.png)
 
 
 5) Do the same for your **Label** but just 1 **Label** will do.
@@ -787,11 +790,11 @@ Find the Tab which says **Control** and in that tab find **Button**. Once you ha
 To Label your **Button**, double click on it. For our First Button, label it ***ON***. For the second, ***OFF***.
 For your **Label**, change it to ***Projector Controls***.
 
-![Alt text](images314GitHub/GUI%20Designer/labeling.png)
+![Alt text](Extron_GCP_GUI/GUI_Img/labeling.png)
 
 7) Save and Build your File.
 
-![Alt text](images314GitHub/GUI%20Designer/Save.png)
+![Alt text](Extron_GCP_GUI/GUI_Img/Save.png)
 
 
 #### Extron GCP
@@ -801,66 +804,66 @@ For your **Label**, change it to ***Projector Controls***.
 To start off, we will design our controls in the Extron GCP.
 Once you have open Extron GCP, find the **File** Tab and click on **New Project**.
 
-![Alt text](images314GitHub/MVP%20Img/newproject.png)
+![Alt text](Extron_GCP_GUI/GCP_Img/newproject.png)
 
 2) Add the control processor device and Touch Panel
 
 **Step 1**
 Click on the **'+'** to add the control processor device
 
-![Alt text](images314GitHub/MVP%20Img/how%20to%20add%20IPCP.jpg)
+![Alt text](Extron_GCP_GUI/GCP_Img/how%20to%20add%20IPCP.jpg)
 
 **Step 2**
 Select and add the appropiate control processor
-![Alt text](images314GitHub/MVP%20Img/select%20IPCP%20.jpg)
+![Alt text](Extron_GCP_GUI/GCP_Img/select%20IPCP%20.jpg)
 
 Change the IP Address if necessary
-![Alt text](images314GitHub/MVP%20Img/select%20IPCP%20and%20change%20IP%20Add%20.jpg)
+![Alt text](Extron_GCP_GUI/GCP_Img/select%20IPCP%20and%20change%20IP%20Add%20.jpg)
 
 **Step 3**
 Click on the **'+'** on the control processor device to add the Touch Panel
-![Alt text](images314GitHub/MVP%20Img/how%20to%20add%20touch%20panel.jpg)
+![Alt text](Extron_GCP_GUI/GCP_Img/how%20to%20add%20touch%20panel.jpg)
 
 **Step 4**
 Select and add the appropiate control device
-![Alt text](images314GitHub/MVP%20Img/add%20touch%20panel.jpg)
+![Alt text](Extron_GCP_GUI/GCP_Img/add%20touch%20panel.jpg)
 
 3) Adding the appropiate drivers
 
 All Extron drivers can be downloaded from their website.
-![Alt text](images314GitHub/MVP%20Img/extrondriverspage.png)
+![Alt text](Extron_GCP_GUI/GCP_Img/extrondriverspage.png)
 
 **Step 1** 
 Find the communication port Tab under the configuration palette
-![Alt text](images314GitHub/MVP%20Img/communication%20port%20to%20add%20driver.jpg)
+![Alt text](Extron_GCP_GUI/GCP_Img/communication%20port%20to%20add%20driver.jpg)
 
 **Step 2**
 Click on the port that you will be using. Under that port, find and click on the **down arrow** and click **add driver**.
-![Alt text](images314GitHub/MVP%20Img/add%20driver%20to%20port.jpg)
+![Alt text](Extron_GCP_GUI/GCP_Img/add%20driver%20to%20port.jpg)
 
 **Step 3**
 Proceed to select the appropiate driver that you will be using. In this project, we will be using the DAWUGN projector driver by optoma.
-![Alt text](images314GitHub/MVP%20Img/drivers.jpeg)
+![Alt text](Extron_GCP_GUI/GCP_Img/drivers.jpeg)
 
 4) Programming user interface
 
 **Step 1**
 Head to user interface under the confuguration palette in touch panel.
-![Alt text](images314GitHub/MVP%20Img/User%20Interfaces%20to%20program.jpg)
+![Alt text](Extron_GCP_GUI/GCP_Img/User%20Interfaces%20to%20program.jpg)
 
 **Step 2**
 Find the icon that let's you import your GUI File/Layout
-![Alt text](images314GitHub/MVP%20Img/Import%20Layout%20-%20GUI.jpg)
+![Alt text](Extron_GCP_GUI/GCP_Img/Import%20Layout%20-%20GUI.jpg)
 
 
 5) Program your GUI
 
-![Alt text](images314GitHub/MVP%20Img/programming.png)
+   ![Alt text](Extron_GCP_GUI/GCP_Img/programming.png)
 
 
 6) Lauch your Extron Touch Panel to use your interface
 
-![Alt text](images314GitHub/MVP%20Img/Launch%20panel.jpg)
+   ![Alt text](Extron_GCP_GUI/GCP_Img/Launch%20panel.jpg)
 
 
 
@@ -868,17 +871,56 @@ Find the icon that let's you import your GUI File/Layout
 
 1) Reset your router 
 
-2) Type the default Router IP Address into the web browser
+2) Type the default Router IP Address(**192.168.1.1**) into the web browser and press **Enter**
 
-3) Login in to the site
+3) Type in the user name and password in the given fields. The default username is **admin** and the default password is **password**
 
-4) Once logged in, assign your DHCP and Static IP address.
+   ![Alt text](NETGEAR_Img/loginRouter.png)
 
+4) Click on **Log In/Sign In**
+
+   ![Alt text](NETGEAR_Img/SignIn.png)
+
+5) You will now be logged in into your NETGEAR Router admin page
+
+#### Changing Network Name (SSID) and Wifi Password
+
+1) Find and click on the **Wireless** tab
+
+   ![Alt text](NETGEAR_Img/wireless_tab.png)
+
+2) In the tab, find **Name (SSID)** to change the network name
+
+3) To change the password, find for **Password (Network Key)**
+
+   ![Alt text](NETGEAR_Img/password&SSID.png)
+
+#### Setting up your own AV LAN
+
+1) Find and Click on the **ADVANCED** tab
+
+   ![Alt text](NETGEAR_Img/advanced_tab.png)
+
+2) In the **ADVANCED** tab, find and click on the **Setup** tab. 
+
+   ![Alt text](NETGEAR_Img/setup_tab.png)
+
+3) Under the Setup tab, find and click on **LAN Setup**.
+
+   ![Alt text](NETGEAR_Img/LANsetup_tab.png)
+
+4) You will be directed to the following interface where you can now assign your own Static and DHCP IP address 
+
+   ![Alt text](NETGEAR_Img/IPaddress.png)
 
 ---
 
 ## Testing Phase
 **[(Back To Top)](#table-of-content-)**
+
+
+### Demo Video of our Project
+
 
 ### Snake (Game Demo)
 
@@ -1036,17 +1078,6 @@ Find the icon that let's you import your GUI File/Layout
 
 ---
 
-### Joystick and Button Demo
-
-* The joystick is our mouse control.
-* The red button is the mouse button.
-* The other 4 buttons in yellow or white are the **Up, Down, Left, Right** keys in our keyboard control.
-
-* This is a demostration of our controls. 
-
-<https://github.com/AbbieNgXinYi/Gamenian/blob/main/Controldemo/ControlDemo.mp4>
-
-
 
 ### Troubleshooting
 **[(Back To Top)](#table-of-content-)**
@@ -1134,5 +1165,14 @@ Find the icon that let's you import your GUI File/Layout
 * Remember to always save your file before launching the touch panel
 
 * Check that your username and password when you launch your touch panel is correct
+
+
+### TouchOSC Application
+
+* Always check that the IP address and send port of the device you are communicating with is correct
+
+* Make sure that you have ticked the connection box 
+
+* For the buttons, always check that the address and arguement that you have typed in corresponds to the one you have set in the arduino code
 
 ---
