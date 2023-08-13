@@ -234,7 +234,7 @@ flowchart TD
 | **DMP 64** | 192.168.77.11 | 255.255.255.0 | 192.168.77.7 |
 
 
-### Floor & Cabling Plan
+### Floor and Cabling Plan
 **[(Back To Top)](#table-of-content-)**
 
 ![Alt text](floor&cablingplan/floor1.jpeg)
