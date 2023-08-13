@@ -769,6 +769,19 @@ Your device information should be visible to you once you have clicked on the de
 
 To program our controls, we will be using the Extron GCP and GUI Designer. We are using Extron softwares as our control processor is an Extron device. 
 
+#### Directory for Extron GCP and GUI Files
+
+```mermaid
+flowchart LR
+
+   A[Extron_GCP_GUI] --> B[Extron GCP anf GUI Files]
+   B --> C[Extron_GCP]
+   B --> D[Extron_GUI]
+   C --> E[Extron_Control_314.gcplus]
+   D --> F[Extron_Control_Interface.gdl]
+
+```
+
 #### Extron GUI Designer
 
 1) Download Extron GUI Designer
