@@ -209,22 +209,14 @@ Game Development With SFX (Completion 100%)
 
 ![Alt text](SystemDiagram/314-e-schematic-c.png)
 
-#### Arudino Control
+#### Arudino & Touch OSC Control
 
 ```mermaid
-graph TD
-
-A[Micro USB]--> B[Laptop]
-A--> C[Arduino]
-C--> D[Breadboard]
-D--> E[Joystick]
-D--> F[Button - Mouse Click]
-D--> G[Button - Up Key]
-D--> H[Button - Down Key]
-D--> I[Button - Left Key]
-D--> J[Button - Right Key]
+A[Laptop]--> B[Arduino]
+B--> C[iPAD(TouchOSC)]
 
 ```
+
 
 #### Network Settings
 **[(Back To Top)](#table-of-content-)**
@@ -387,7 +379,7 @@ D--> J[Button - Right Key]
    **(In our project, as we do not have enough LAN ports, we will be using a network switch.)**
 
 
-### Arduino Leonardo
+### Arduino Leonardo & TouchOSC
 <br>
 
 **[(Back To Top)](#table-of-content-)**
@@ -396,11 +388,9 @@ D--> J[Button - Right Key]
 
 <br>
 
-1) To use the Arduino Leonardo, first connect it via USB-A to Micro USB to the Laptop.
+1) To use the Arduino Leonardo, connect it via USB-A to Micro USB to the Laptop.
 
-2) For our setup, we have used a passive USB extender due to the location of where the Laptop and Arduino is placed.
-
-3) In our set up, we have connected one joystick and 5 buttons to the Arduino using 3 core cables and jumper wires.
+2) To use TouchOSC, simply download the application either in your laptop or any wireless device such as your phone or tablet.
 
 <br>
 
@@ -408,9 +398,9 @@ D--> J[Button - Right Key]
 
 ![Alt text](ArduinoImg/Arduino2.jpeg)
 
-#### Download Arduino Sofware
+#### Download Arduino Software
 
-1) To start on the Arduino, search in Google for Arduino IDE
+1) To start on the Arduino, search in Google for **Arduino IDE**
 
 2) Click on Download and Install Arduino IDE
 
@@ -420,31 +410,97 @@ D--> J[Button - Right Key]
 
 4) You can now start programming your Arduino!
 
-#### Arduino mouse and keyboard controls
+**TouchOSC Setup**
+#### Download TouchOSC Application
 
-1) In your Arduino Leonardo, start by searching and downloading the **mouse and keyboard library**
+1) To start on TouchOSC, search in Google for TouchOSC Download or go to the app store/google play store and search **TouchOSC**
 
-2) To start off the code, we sourced for codes from the Arduino website as well as other webpages too.
-   We then edited the code depending on what we have connected to our Arduino.
+2) Download TouchOSC for PC:
+<https://hexler.net/touchosc>
 
-3) First, we tested out the mouse control as well as the mouse click codes.
+3) Once you have the application, start off by setting up the relevant connection
 
-4) We then tested out the keyboard control code to check if the buttons that we want to use is synced with the Arduino buttons.
+4) For our setup, we will be connecting to the Arduino and Laptop
 
-5) We then combined the codes together and tested them out to see if the codes would conflict with one another.
+5) Here are the steps to setup the connection :
 
-6) Our codes can be found in the **Arduino Codes** folder.
+**Step 1**
+Open the application and find this chain icon
+
+   ![Alt text](TouchOSC/TouchOSC_Setup/Step1.png)
+
+
+**Step 2**
+Click on the OSC Tab
+
+   ![Alt text](TouchOSC/TouchOSC_Setup/Step2.png)
+
+
+**Step 3**
+Setup your connection accordingly. Your IP address would be the device you are sending and receiving. Your send and receive port depends on which port you have set it to
+
+   ![Alt text](TouchOSC/TouchOSC_Setup/Step3.png)
+
+
+**Step 4**
+Check that you have tick the connection box. This allows you to communicate between the device you are sending and receiving the OSC commands from.
+
+   ![Alt text](TouchOSC/TouchOSC_Setup/Step4.png)
+
+
+#### Arduino keyboard and OSC controls
+
+1) In your Arduino Leonardo, include **keyboard, SPI, Ethernet, EthernetUdp, OSCBundle library**. Search in the library manager if library has not been downloaded.
+
+2) To start off the code, we sourced for codes from the Arduino website as well as other webpages too. We then edited the code depending on our setup
+
+3) First we tested out the OSC control code to make sure that we are able to receive OSC commands in TouchOSC
+
+4) Subsequently, we created buttons in TouchOSC and inserted the keyboard control code to test out our keyboard controls
+
+5) You can find our codes by following this directory:
+   ```mermaid
+   A[Arduino Codes]--> B[osc_keyboard_controls]
+   ```
+
 
 * To take note: **Remember to always include the relevant library or the code will not work**
 
    ```
-   #include "Keyboard.h"
-   #include "Mouse.h"
+   #include Keyboard.h>
+   #include <SPI.h>
+   #include <Ethernet.h>
+   #include <EthernetUdp.h>
+   #include <OSCBundle.h>
    ```
 
-**Joystick and Button Setup**
+**TouchOSC Control Interface Setup**
 
-![Alt tqext](ArduinoImg/J%26B1.jpeg)
+1) Find the **'+'** icon
+
+   ![Alt text](TouchOSC/Interface_Setup/Step1.png)
+
+2) Click on **BUTTON**
+
+   ![Alt text](TouchOSC/Interface_Setup/Step2.png)
+
+3) A Button will appear in your workstation. Click the button in your workstation.
+
+4) Next find the 3 line icon and click on it
+
+   ![Alt text](TouchOSC/Interface_Setup/Step3.png)
+
+5) Find the **messages** tab and scroll down to find **OSC** and click on it to expand the tab
+
+   ![Alt text](TouchOSC/Interface_Setup/Step4.png)
+
+6) Lastly, change the address and argument accordingly to the code
+
+   ![Alt text](TouchOSC/Interface_Setup/Step5.png)
+
+7) This is how the interface should look like
+
+   ![Alt text](TouchOSC/Interface_Setup/Interface.png)
 
 
 ### Network Router Installation 
