@@ -12,19 +12,19 @@ With our project, we aim to help tackle some of these issues and add value to ex
 
 ## Table of Content :
 
-- **[Our Objective](#Our-Objective)**
+- **[Our Objective](#our-objective)**
 
-- **[Unique Features](#Unique-Features)**
+- **[Unique Features](#unique-features)**
 
-- **[Team Information](#Team-Information)**
+- **[Team Information](#team-information)**
 
-- **[Game Coding Language(s)](#Game-Coding-Language(s))**
+- **[Game Coding Language(s)](#game-coding-languages)**
 
-- **[Game Development](#Game-Development)**
+- **[Game Development](#game-development)**
    - Two-Player Games
    - Single-Player Games
 
-- **[Setup Progress](#Setup-Progress)**
+- **[Setup Progress](#setup-progress)**
    - Bill Of Materials (BOM)
    - Lighting Setup
    - Video Setup
@@ -33,14 +33,14 @@ With our project, we aim to help tackle some of these issues and add value to ex
       - Projector Setup
       - Arduino Setup
 
-- **[Network Settings](#Network-Settings)**
+- **[Network Settings](#network-settings)**
 
-- **[Floor and Cabling Plan](#Floor-and-Cabling-Plan)**
+- **[Floor and Cabling Plan](#floor-and-cabling-plan)**
    - Layout
       - Cabling Layout
       - Rack Layout
 
-- **[Installation Phase](#Installation-Phase)**
+- **[Installation Phase](#installation-ihase)**
    - Lighting Installation
    - Video Installation
       - Media Server
@@ -53,7 +53,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
          - Arduino mouse and keyboard controls
    - Joystick and Buttons Setup
 
-- **[Operational Phase](#Operational-Phase)**
+- **[Operational Phase](#oiperational-phase)**
    - PB Management
    - Aver Media Capture Card
    - Christie Pandora Box
@@ -68,13 +68,13 @@ With our project, we aim to help tackle some of these issues and add value to ex
       - Extron GCP
    - Configuring Router
 
-- **[Testing Phase](#Testing-Phase) (With Instructions and Demo)**
+- **[Testing Phase](#testing-phase) (With Instructions and Demo)**
    - Connect 4
    - 2048 
    - Ping Pong
    - Joystick and Button Demo
 
-- **[Troubleshooting](#Troubleshooting)**
+- **[Troubleshooting](#troubleshooting)**
    - What if the video is unable to livefeed onto the projector?
    - Aver Media Capture Card
    - PB Management
