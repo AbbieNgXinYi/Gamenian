@@ -70,6 +70,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
    - Configuring Router
       - Changing Network Name (SSID) and Wifi Password 
       - Setting up your own AV LAN
+   - Lighting Programming
 
 - **[Testing Phase](#testing-phase) (With Instructions and Demo)**
    - Demo Video of Project
@@ -939,6 +940,18 @@ Find the icon that let's you import your GUI File/Layout
 4) You will be directed to the following interface where you can now assign your own Static and DHCP IP address 
 
    ![Alt text](NETGEAR_Img/IPaddress.png)
+
+
+### Lighting Programming
+
+**TouchOSC app sends OSC commands to Christie Widget Designer. UDP messaging protocol is used when sending the OSC commands.**
+
+To set up the UDP messaging protocol in Widget Designer, you can refer to this link:
+<https://christiepandorasbox.com/root/downloads/support/Documentation/Helpfile/udp-client_wdconfig.htm>
+
+The custom address, command, and port number is used as Widget Designer  doesn't provide any specific format for OSC.
+
+Once Widget Designer **receives the OSC commands**, it filters it to **determine the lighting effect required** (LED red, green, blue, etc). Widget Designer then **communicates with Pandora Box** to **jump to a specific cue** on the Pandora Box **video timeline** where the particular **lighting effects have been stored**. Pandora Box will continously loop on the specific lighting cue, until a different Cue is triggered.
    
 ---
 
