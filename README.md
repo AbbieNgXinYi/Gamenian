@@ -947,7 +947,7 @@ Find the icon that let's you import your GUI File/Layout
 
 
 ### Demo Video of our Project
-
+[![Alternate Text](images314GitHub/thumbnail.png)](https://youtu.be/ltyJQ8lT8JU "EGL314 Demo Video")
 
 ### Snake (Game Demo)
 
