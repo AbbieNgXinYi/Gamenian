@@ -960,7 +960,7 @@ Once Widget Designer **receives the OSC commands**, it filters it to **determine
 
 
 ### Demo Video of our Project
-[![Alternate Text](images314GitHub/thumbnail.png)](https://youtu.be/ltyJQ8lT8JU "EGL314 Demo Video")
+
 
 ### Snake (Game Demo)
 
