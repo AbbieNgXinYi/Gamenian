@@ -213,6 +213,8 @@ Game Development With SFX (Completion 100%)
 #### Arudino & Touch OSC Control
 
 ```mermaid
+graph LR
+
 A[Laptop]--> B[Arduino]
 B--> C[iPAD(TouchOSC)]
 
@@ -463,6 +465,8 @@ Check that you have tick the connection box. This allows you to communicate betw
 
 5) You can find our codes by following this directory:
    ```mermaid
+   graph LR
+   
    A[Arduino Codes]--> B[osc_keyboard_controls]
    ```
 
