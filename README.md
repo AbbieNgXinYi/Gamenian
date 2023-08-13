@@ -31,7 +31,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
    - Audio Setup
    - Control Setup
       - Projector Setup
-      - Arduino Setup
+      - Arduino and TouchOSC Setup
 
 - **[Network Settings](#network-settings)**
 
@@ -40,7 +40,7 @@ With our project, we aim to help tackle some of these issues and add value to ex
       - Cabling Layout
       - Rack Layout
 
-- **[Installation Phase](#installation-ihase)**
+- **[Installation Phase](#installation-phase)**
    - Lighting Installation
    - Video Installation
       - Media Server
@@ -48,12 +48,13 @@ With our project, we aim to help tackle some of these issues and add value to ex
    - Audio installation
       - Audio Software 
    - Arduino Leonardo
-      - Arduino Setup
-      - Arduino Software
-         - Arduino mouse and keyboard controls
-   - Joystick and Buttons Setup
+      - Arduino & TouchOSC Setup
+      - Download Arduino Software
+      - Download TouchOSC Software
+      - Arduino and OSC codes
+   - TouchOSC Control Interface Setup
 
-- **[Operational Phase](#oiperational-phase)**
+- **[Operational Phase](#operational-phase)**
    - PB Management
    - Aver Media Capture Card
    - Christie Pandora Box
@@ -447,6 +448,8 @@ Check that you have tick the connection box. This allows you to communicate betw
 
    ![Alt text](TouchOSC/TouchOSC_Setup/Step4.png)
 
+
+**Arduino and OSC codes**
 
 #### Arduino keyboard and OSC controls
 
