@@ -926,9 +926,7 @@ Find the icon that let's you import your GUI File/Layout
 4) You will be directed to the following interface where you can now assign your own Static and DHCP IP address 
 
    ![Alt text](NETGEAR_Img/IPaddress.png)
-
-
-
+   
 ---
 
 ## Testing Phase
