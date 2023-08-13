@@ -127,6 +127,11 @@ With our project, we aim to help tackle some of these issues and add value to ex
    + Control System setup
    + Control system - Audio DSP & Projector control 
 
+* Final Phase
+   + Redesign and program equipment control GUI
+   + Setup, program and design GUI in TouchOSC
+   + Widget Designer communication between Pandora and TouchOSC
+
 **Sean(Assistant Leader)**
 
 * POC Phase
@@ -152,6 +157,10 @@ With our project, we aim to help tackle some of these issues and add value to ex
    + Lighting System Setup
    + Lighting System Programming, Cue-ing
 
+* Final Phase
+   + Widget Designer communication between Pandora Box and TouchOSC
+   + Program Lighting cue in Pandora Box
+
 **Xin Yi(Member)**
 
 * POC Phase
@@ -162,6 +171,11 @@ With our project, we aim to help tackle some of these issues and add value to ex
    + Unity code - incorporate new game (Ping Pong) to replace Air Hockey 
    + Incorporate Main Menu 
    + Game instructions - asset creation
+
+* Final Phase
+   + Created and incorporate snake game
+   + Redesign game GUI
+   + Enhance the unity games, the main and game menus, and instructions for games
 
 ## Game Coding Language(s)
 **[(Back To Top)](#table-of-content-)**
@@ -912,6 +926,8 @@ Find the icon that let's you import your GUI File/Layout
 4) You will be directed to the following interface where you can now assign your own Static and DHCP IP address 
 
    ![Alt text](NETGEAR_Img/IPaddress.png)
+
+
 
 ---
 
