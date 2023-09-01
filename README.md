@@ -250,6 +250,10 @@ flowchart TD
 | **Optoma Projector** | 192.168.77.16 | 255.255.255.0 | 192.168.77.7 |
 | **Media Server (ThinkServer)** | 192.168.77.30 | 255.255.255.0 | 192.168.77.7 |
 | **DMP 64** | 192.168.77.11 | 255.255.255.0 | 192.168.77.7 |
+| **Arduino** | 192.168.77.151 | 255.255.255.0 | 192.168.77.7 |
+| **iPad 1** | 192.168.77.150 | 255.255.255.0 | 192.168.77.7 |
+| **iPad 2** | 192.168.77.152 | 255.255.255.0 | 192.168.77.7 |
+| **iPad 3** | 192.168.77.153 | 255.255.255.0 | 192.168.77.7 |
 
 
 ### Floor and Cabling Plan
@@ -286,10 +290,6 @@ flowchart TD
 
 ![Alt text](images314Github/MVP%20Img/msg922999526-37086.jpg)
 
-![Alt text](images314Github/MVP%20Img/Projector%20LAN%20connection.jpg)
-
-![Alt text](images314Github/MVP%20Img/Router%20LAN%20connection.jpg)
-
 
 ### Rack layout
 
@@ -299,6 +299,7 @@ flowchart TD
 | Netgear Router |
 | Cisco Network Switch |
 | Aver Media Capture Card |
+| Arduino |
 | Media Server |
 | Extron DMP 64 |
 | Extron IPCP Pro 350 |
@@ -405,7 +406,7 @@ flowchart TD
 
 **[(Back To Top)](#table-of-content-)**
 
-![Alt text](ArduinoImg/Arduino1.jpeg)
+![Alt text](ArduinoImg/arduino_img.jpeg)
 
 <br>
 
@@ -417,7 +418,7 @@ flowchart TD
 
 **Arduino Setup**
 
-![Alt text](ArduinoImg/Arduino2.jpeg)
+![Alt text](ArduinoImg/arduino_img.jpeg)
 
 #### Download Arduino Software
 
@@ -961,7 +962,7 @@ Once Widget Designer **receives the OSC commands**, it filters it to **determine
 
 ### Demo Video of our Project
 
-[![Alternate Text](images314GitHub/thumbnail1.png)](https://youtu.be/ltyJQ8lT8JU "EGL314 Demo Video")
+[[Watch Demo Video Here!]](https://youtu.be/ltyJQ8lT8JU "EGL314 Demo Video")
 
 ### Snake (Game Demo)
 
