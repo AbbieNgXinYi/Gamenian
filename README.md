@@ -208,7 +208,17 @@ Game Development With SFX (Completion 100%)
 
 ### Bill Of Materials
 
-![Alt text](BOM/BOM314.png)
+## BOM Equipment
+
+![Alt text](BOM/BOMequipment.png)
+
+---
+
+## BOM Cables
+
+![Alt text](BOM/BOMcable.png)
+
+---
 
 ### Video Setup
 
